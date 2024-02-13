@@ -8,17 +8,8 @@ type Tag = {
 };
 
 export function App() {
-  const [tags] = createResource(() =>
-    fetch(new URL("/tags.json", location.href))
-      .then((r) => r.json())
-      .then((json: Tag[]) => {
-        for (const tag of json) {
-          tag.displayNames = tag.displayNames.map((name) =>
-            name.replace(/–/g, "-"),
-          );
-        }
-        return json;
-      }),
+  const [tags] = createResource<Tag[]>(() =>
+    fetch(new URL("/tags.json", location.href)).then((r) => r.json()),
   );
   const [ac, setAc] = createSignal<[string, string][]>([]);
   const [first, setFirst] = createSignal<HTMLLIElement | null>(null);
@@ -50,7 +41,8 @@ export function App() {
             onInput={(tag) => {
               const matching = tags().find(
                 ({ key, displayNames }) =>
-                  tag === key || displayNames.includes(tag),
+                  tag === key ||
+                  displayNames.some((name) => name.replace(/–/g, "-") === tag),
               );
               if (
                 matching &&
