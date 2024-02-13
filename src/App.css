@@ -33,7 +33,8 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5em;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .tag {
