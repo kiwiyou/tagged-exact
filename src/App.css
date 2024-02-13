@@ -1,0 +1,131 @@
+#root {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto 1fr auto;
+  justify-items: stretch;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.progress {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.tag-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  overflow: scroll;
+}
+
+.tag {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  background: #1a2733;
+  border: 1px solid #2c3640;
+  padding: 8px 16px;
+  border-radius: 1em;
+  list-style: none;
+  transition: background-color 0.3s ease 0s;
+  user-select: none;
+}
+
+.tag:hover, .tag:focus-within {
+  background: #2c3640;
+}
+
+.tag:focus-within {
+  border: #0088ff solid 2px;
+}
+
+.tag-en {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #b8bcbf;
+}
+
+.description {
+  font-size: 0.5em;
+  padding: 0.5em 0;
+}
+
+.challenge {
+  margin: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  user-select: none;
+  padding: 12px 16px;
+  background: var(--button);
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s, transform 0.3s ease 0s, box-shadow 0.3s ease 0s;  
+  color: var(--button-text);
+  border-radius: 0.4em;
+  border: none;
+}
+
+.button:hover {
+  background: var(--button-hover);
+  transform: translate(0px, -0.2em);
+  box-shadow: #12a02d66 0px 4px 8px;
+}
+
+.fail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(21, 32, 43, 0.9);
+  gap: 2em;
+}
+
+.fail-text {
+  color: var(--fail);
+  font-weight: bold;
+  font-size: 10em;
+  transform: rotate(-20deg);
+  animation: 1s fail-appear;
+}
+
+@keyframes fail-appear {
+  from {
+    transform: rotate(-20deg) scale(200%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(-20deg) scale(100%);
+    opacity: 1;
+  }
+}
+
+p {
+  margin: 0;
+}

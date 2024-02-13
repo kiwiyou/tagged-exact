@@ -1,0 +1,1641 @@
+[
+  {
+    "key": "math",
+    "displayNames": [
+      "수학",
+      "mathematics",
+      "数学"
+    ]
+  },
+  {
+    "key": "implementation",
+    "displayNames": [
+      "구현",
+      "implementation",
+      "実装"
+    ]
+  },
+  {
+    "key": "dp",
+    "displayNames": [
+      "다이나믹 프로그래밍",
+      "dynamic programming",
+      "動的計画法"
+    ]
+  },
+  {
+    "key": "data_structures",
+    "displayNames": [
+      "자료 구조",
+      "data structures",
+      "データ構造"
+    ]
+  },
+  {
+    "key": "graphs",
+    "displayNames": [
+      "그래프 이론",
+      "graph theory",
+      "グラフ理論"
+    ]
+  },
+  {
+    "key": "greedy",
+    "displayNames": [
+      "그리디 알고리즘",
+      "greedy",
+      "貪欲法"
+    ]
+  },
+  {
+    "key": "string",
+    "displayNames": [
+      "문자열",
+      "string",
+      "文字列"
+    ]
+  },
+  {
+    "key": "bruteforcing",
+    "displayNames": [
+      "브루트포스 알고리즘",
+      "bruteforcing",
+      "全探索"
+    ]
+  },
+  {
+    "key": "graph_traversal",
+    "displayNames": [
+      "그래프 탐색",
+      "graph traversal",
+      "グラフの探索"
+    ]
+  },
+  {
+    "key": "sorting",
+    "displayNames": [
+      "정렬",
+      "sorting",
+      "ソート"
+    ]
+  },
+  {
+    "key": "geometry",
+    "displayNames": [
+      "기하학",
+      "geometry",
+      "幾何学"
+    ]
+  },
+  {
+    "key": "number_theory",
+    "displayNames": [
+      "정수론",
+      "number theory",
+      "整数論"
+    ]
+  },
+  {
+    "key": "trees",
+    "displayNames": [
+      "트리",
+      "tree",
+      "木"
+    ]
+  },
+  {
+    "key": "ad_hoc",
+    "displayNames": [
+      "애드 혹",
+      "ad-hoc",
+      "アドホック"
+    ]
+  },
+  {
+    "key": "segtree",
+    "displayNames": [
+      "세그먼트 트리",
+      "segment tree",
+      "セグメント木"
+    ]
+  },
+  {
+    "key": "binary_search",
+    "displayNames": [
+      "이분 탐색",
+      "binary search",
+      "二分探索"
+    ]
+  },
+  {
+    "key": "arithmetic",
+    "displayNames": [
+      "사칙연산",
+      "arithmetic",
+      "算数"
+    ]
+  },
+  {
+    "key": "simulation",
+    "displayNames": [
+      "시뮬레이션",
+      "simulation",
+      "シミュレーション"
+    ]
+  },
+  {
+    "key": "bfs",
+    "displayNames": [
+      "너비 우선 탐색",
+      "breadth-first search",
+      "幅優先検索"
+    ]
+  },
+  {
+    "key": "constructive",
+    "displayNames": [
+      "해 구성하기",
+      "constructive",
+      "構成的"
+    ]
+  },
+  {
+    "key": "prefix_sum",
+    "displayNames": [
+      "누적 합",
+      "prefix sum",
+      "累積和"
+    ]
+  },
+  {
+    "key": "combinatorics",
+    "displayNames": [
+      "조합론",
+      "combinatorics",
+      "組み合わせ"
+    ]
+  },
+  {
+    "key": "case_work",
+    "displayNames": [
+      "많은 조건 분기",
+      "case work",
+      "ケースワーク"
+    ]
+  },
+  {
+    "key": "dfs",
+    "displayNames": [
+      "깊이 우선 탐색",
+      "depth-first search",
+      "深さ優先探索"
+    ]
+  },
+  {
+    "key": "shortest_path",
+    "displayNames": [
+      "최단 경로",
+      "shortest path",
+      "最短経路"
+    ]
+  },
+  {
+    "key": "bitmask",
+    "displayNames": [
+      "비트마스킹",
+      "bitmask",
+      "ビット表現"
+    ]
+  },
+  {
+    "key": "hash_set",
+    "displayNames": [
+      "해시를 사용한 집합과 맵",
+      "set / map by hashing",
+      "ハッシュ化によるセット・マップ"
+    ]
+  },
+  {
+    "key": "dijkstra",
+    "displayNames": [
+      "데이크스트라",
+      "dijkstra's",
+      "ダイクストラ法"
+    ]
+  },
+  {
+    "key": "backtracking",
+    "displayNames": [
+      "백트래킹",
+      "backtracking",
+      "バックトラック法"
+    ]
+  },
+  {
+    "key": "tree_set",
+    "displayNames": [
+      "트리를 사용한 집합과 맵",
+      "set / map by trees",
+      "木によるセット・マップ"
+    ]
+  },
+  {
+    "key": "sweeping",
+    "displayNames": [
+      "스위핑",
+      "sweeping",
+      "平面走査"
+    ]
+  },
+  {
+    "key": "disjoint_set",
+    "displayNames": [
+      "분리 집합",
+      "disjoint set",
+      "素集合データ構造"
+    ]
+  },
+  {
+    "key": "parsing",
+    "displayNames": [
+      "파싱",
+      "parsing",
+      "パージング"
+    ]
+  },
+  {
+    "key": "dp_tree",
+    "displayNames": [
+      "트리에서의 다이나믹 프로그래밍",
+      "dynamic programming on trees",
+      "木上の動的計画法"
+    ]
+  },
+  {
+    "key": "divide_and_conquer",
+    "displayNames": [
+      "분할 정복",
+      "divide and conquer",
+      "分割統治法"
+    ]
+  },
+  {
+    "key": "priority_queue",
+    "displayNames": [
+      "우선순위 큐",
+      "priority queue",
+      "優先度付きキュー"
+    ]
+  },
+  {
+    "key": "stack",
+    "displayNames": [
+      "스택",
+      "stack",
+      "スタック"
+    ]
+  },
+  {
+    "key": "two_pointer",
+    "displayNames": [
+      "두 포인터",
+      "two-pointer",
+      "尺取り法"
+    ]
+  },
+  {
+    "key": "parametric_search",
+    "displayNames": [
+      "매개 변수 탐색",
+      "parametric search",
+      "parametric search"
+    ]
+  },
+  {
+    "key": "game_theory",
+    "displayNames": [
+      "게임 이론",
+      "game theory",
+      "ゲーム理論"
+    ]
+  },
+  {
+    "key": "flow",
+    "displayNames": [
+      "최대 유량",
+      "maximum flow",
+      "最大フロー"
+    ]
+  },
+  {
+    "key": "primality_test",
+    "displayNames": [
+      "소수 판정",
+      "primality test",
+      "素数性テスト"
+    ]
+  },
+  {
+    "key": "dp_bitfield",
+    "displayNames": [
+      "비트필드를 이용한 다이나믹 프로그래밍",
+      "dynamic programming using bitfield",
+      "ビットを使用した動的計画法"
+    ]
+  },
+  {
+    "key": "lazyprop",
+    "displayNames": [
+      "느리게 갱신되는 세그먼트 트리",
+      "segment tree with lazy propagation",
+      "遅延評価セグメント木"
+    ]
+  },
+  {
+    "key": "exponentiation_by_squaring",
+    "displayNames": [
+      "분할 정복을 이용한 거듭제곱",
+      "exponentiation by squaring",
+      "二乗法によるべき乗"
+    ]
+  },
+  {
+    "key": "probability",
+    "displayNames": [
+      "확률론",
+      "probability theory",
+      "確率論"
+    ]
+  },
+  {
+    "key": "arbitrary_precision",
+    "displayNames": [
+      "임의 정밀도 / 큰 수 연산",
+      "arbitrary precision / big integers",
+      "高精度または大きな数の演算"
+    ]
+  },
+  {
+    "key": "offline_queries",
+    "displayNames": [
+      "오프라인 쿼리",
+      "offline queries",
+      "offline queries"
+    ]
+  },
+  {
+    "key": "knapsack",
+    "displayNames": [
+      "배낭 문제",
+      "knapsack",
+      "ナップサック問題"
+    ]
+  },
+  {
+    "key": "recursion",
+    "displayNames": [
+      "재귀",
+      "recursion",
+      "再帰"
+    ]
+  },
+  {
+    "key": "coordinate_compression",
+    "displayNames": [
+      "값 / 좌표 압축",
+      "value / coordinate compression",
+      "value / coordinate compression"
+    ]
+  },
+  {
+    "key": "precomputation",
+    "displayNames": [
+      "런타임 전의 전처리",
+      "precomputation",
+      "事前計算"
+    ]
+  },
+  {
+    "key": "sieve",
+    "displayNames": [
+      "에라토스테네스의 체",
+      "sieve of eratosthenes",
+      "エラトステネスの篩"
+    ]
+  },
+  {
+    "key": "mst",
+    "displayNames": [
+      "최소 스패닝 트리",
+      "minimum spanning tree",
+      "最小全域木"
+    ]
+  },
+  {
+    "key": "euclidean",
+    "displayNames": [
+      "유클리드 호제법",
+      "euclidean algorithm",
+      "ユークリッドの互除法"
+    ]
+  },
+  {
+    "key": "bipartite_matching",
+    "displayNames": [
+      "이분 매칭",
+      "bipartite matching",
+      "2部マッチング"
+    ]
+  },
+  {
+    "key": "dag",
+    "displayNames": [
+      "방향 비순환 그래프",
+      "directed acyclic graph",
+      "有向非巡回グラフ"
+    ]
+  },
+  {
+    "key": "convex_hull",
+    "displayNames": [
+      "볼록 껍질",
+      "convex hull",
+      "凸包"
+    ]
+  },
+  {
+    "key": "linear_algebra",
+    "displayNames": [
+      "선형대수학",
+      "linear algebra",
+      "線形代数"
+    ]
+  },
+  {
+    "key": "lca",
+    "displayNames": [
+      "최소 공통 조상",
+      "lowest common ancestor",
+      "最下位共通祖先"
+    ]
+  },
+  {
+    "key": "floyd_warshall",
+    "displayNames": [
+      "플로이드–워셜",
+      "floyd–warshall",
+      "ワーシャル–フロイド法"
+    ]
+  },
+  {
+    "key": "topological_sorting",
+    "displayNames": [
+      "위상 정렬",
+      "topological sorting",
+      "トポロジカルソート"
+    ]
+  },
+  {
+    "key": "hashing",
+    "displayNames": [
+      "해싱",
+      "hashing",
+      "ハッシュ化"
+    ]
+  },
+  {
+    "key": "inclusion_and_exclusion",
+    "displayNames": [
+      "포함 배제의 원리",
+      "inclusion and exclusion",
+      "包除原理"
+    ]
+  },
+  {
+    "key": "scc",
+    "displayNames": [
+      "강한 연결 요소",
+      "strongly connected component",
+      "強連結"
+    ]
+  },
+  {
+    "key": "randomization",
+    "displayNames": [
+      "무작위화",
+      "randomization",
+      "ランダム化"
+    ]
+  },
+  {
+    "key": "sparse_table",
+    "displayNames": [
+      "희소 배열",
+      "sparse table",
+      "sparse table"
+    ]
+  },
+  {
+    "key": "trie",
+    "displayNames": [
+      "트라이",
+      "trie",
+      "トライ木"
+    ]
+  },
+  {
+    "key": "smaller_to_larger",
+    "displayNames": [
+      "작은 집합에서 큰 집합으로 합치는 테크닉",
+      "smaller to larger technique",
+      "smaller to larger technique"
+    ]
+  },
+  {
+    "key": "fft",
+    "displayNames": [
+      "고속 푸리에 변환",
+      "fast fourier transform",
+      "高速フーリエ変換"
+    ]
+  },
+  {
+    "key": "deque",
+    "displayNames": [
+      "덱",
+      "deque",
+      "両端キュー"
+    ]
+  },
+  {
+    "key": "mcmf",
+    "displayNames": [
+      "최소 비용 최대 유량",
+      "minimum cost maximum flow",
+      "最小費用最大流問題"
+    ]
+  },
+  {
+    "key": "line_intersection",
+    "displayNames": [
+      "선분 교차 판정",
+      "line segment intersection check",
+      "直線の交点"
+    ]
+  },
+  {
+    "key": "sqrt_decomposition",
+    "displayNames": [
+      "제곱근 분할법",
+      "square root decomposition",
+      "平方分割"
+    ]
+  },
+  {
+    "key": "heuristics",
+    "displayNames": [
+      "휴리스틱",
+      "heuristics",
+      "ヒューリスティック"
+    ]
+  },
+  {
+    "key": "calculus",
+    "displayNames": [
+      "미적분학",
+      "calculus",
+      "微積分"
+    ]
+  },
+  {
+    "key": "cht",
+    "displayNames": [
+      "볼록 껍질을 이용한 최적화",
+      "convex hull trick",
+      "convex hull trick"
+    ]
+  },
+  {
+    "key": "suffix_array",
+    "displayNames": [
+      "접미사 배열과 LCP 배열",
+      "suffix array and lcp array",
+      "接尾辞配列・LCP配列"
+    ]
+  },
+  {
+    "key": "geometry_3d",
+    "displayNames": [
+      "3차원 기하학",
+      "geometry; 3d",
+      "3次元幾何学"
+    ]
+  },
+  {
+    "key": "centroid",
+    "displayNames": [
+      "centroid",
+      "센트로이드",
+      "centroid"
+    ]
+  },
+  {
+    "key": "euler_tour_technique",
+    "displayNames": [
+      "오일러 경로 테크닉",
+      "euler tour technique",
+      "オイラーツアー"
+    ]
+  },
+  {
+    "key": "sprague_grundy",
+    "displayNames": [
+      "스프라그–그런디 정리",
+      "sprague–grundy theorem",
+      "sprague–grundy theorem"
+    ]
+  },
+  {
+    "key": "sliding_window",
+    "displayNames": [
+      "슬라이딩 윈도우",
+      "sliding window",
+      "スライディングウィンドウ"
+    ]
+  },
+  {
+    "key": "modular_multiplicative_inverse",
+    "displayNames": [
+      "모듈로 곱셈 역원",
+      "modular multiplicative inverse",
+      "モジュラ逆数"
+    ]
+  },
+  {
+    "key": "ternary_search",
+    "displayNames": [
+      "삼분 탐색",
+      "ternary search",
+      "三分探索"
+    ]
+  },
+  {
+    "key": "mitm",
+    "displayNames": [
+      "중간에서 만나기",
+      "meet in the middle",
+      "半分全列挙"
+    ]
+  },
+  {
+    "key": "pythagoras",
+    "displayNames": [
+      "피타고라스 정리",
+      "pythagoras theorem",
+      "ピタゴラスの定理"
+    ]
+  },
+  {
+    "key": "bitset",
+    "displayNames": [
+      "비트 집합",
+      "bit set",
+      "bit set"
+    ]
+  },
+  {
+    "key": "permutation_cycle_decomposition",
+    "displayNames": [
+      "순열 사이클 분할",
+      "permutation cycle decomposition",
+      "順列サイクル分解"
+    ]
+  },
+  {
+    "key": "lis",
+    "displayNames": [
+      "가장 긴 증가하는 부분 수열: O(n log n)",
+      "longest increasing sequence in o(n log n)",
+      "longest increasing sequence in o(n log n)"
+    ]
+  },
+  {
+    "key": "kmp",
+    "displayNames": [
+      "KMP",
+      "knuth–morris–pratt",
+      "クヌース–モリス–プラット法"
+    ]
+  },
+  {
+    "key": "gaussian_elimination",
+    "displayNames": [
+      "가우스 소거법",
+      "gaussian elimination",
+      "ガウス消去法"
+    ]
+  },
+  {
+    "key": "hld",
+    "displayNames": [
+      "Heavy-light 분할",
+      "heavy-light decomposition",
+      "heavy-light decomposition"
+    ]
+  },
+  {
+    "key": "centroid_decomposition",
+    "displayNames": [
+      "센트로이드 분할",
+      "centroid decomposition",
+      "centroid decomposition"
+    ]
+  },
+  {
+    "key": "mfmc",
+    "displayNames": [
+      "최대 유량 최소 컷 정리",
+      "max-flow min-cut theorem",
+      "最大フロー最小カット定理"
+    ]
+  },
+  {
+    "key": "polygon_area",
+    "displayNames": [
+      "다각형의 넓이",
+      "area of a polygon",
+      "多角形の面積"
+    ]
+  },
+  {
+    "key": "queue",
+    "displayNames": [
+      "큐",
+      "queue",
+      "キュー"
+    ]
+  },
+  {
+    "key": "physics",
+    "displayNames": [
+      "물리학",
+      "physics",
+      "物理"
+    ]
+  },
+  {
+    "key": "2_sat",
+    "displayNames": [
+      "2-sat",
+      "2-sat",
+      "2-sat"
+    ]
+  },
+  {
+    "key": "articulation",
+    "displayNames": [
+      "단절점과 단절선",
+      "articulation points and bridges",
+      "関節点と橋"
+    ]
+  },
+  {
+    "key": "eulerian_path",
+    "displayNames": [
+      "오일러 경로",
+      "eulerian path / circuit",
+      "eulerian path / circuit"
+    ]
+  },
+  {
+    "key": "flt",
+    "displayNames": [
+      "페르마의 소정리",
+      "fermat's little theorem",
+      "フェルマーの小定理"
+    ]
+  },
+  {
+    "key": "tsp",
+    "displayNames": [
+      "외판원 순회 문제",
+      "travelling salesman problem",
+      "巡回セールスマン問題"
+    ]
+  },
+  {
+    "key": "linearity_of_expectation",
+    "displayNames": [
+      "기댓값의 선형성",
+      "linearity of expectation",
+      "期待値の線形性"
+    ]
+  },
+  {
+    "key": "0_1_bfs",
+    "displayNames": [
+      "0-1 너비 우선 탐색",
+      "0-1 bfs",
+      "0-1 bfs"
+    ]
+  },
+  {
+    "key": "pst",
+    "displayNames": [
+      "퍼시스턴트 세그먼트 트리",
+      "persistent segment tree",
+      "永続セグメント木"
+    ]
+  },
+  {
+    "key": "biconnected_component",
+    "displayNames": [
+      "이중 연결 요소",
+      "biconnected component",
+      "二重接続コンポーネント"
+    ]
+  },
+  {
+    "key": "bipartite_graph",
+    "displayNames": [
+      "이분 그래프",
+      "bipartite graph",
+      "2部グラフ"
+    ]
+  },
+  {
+    "key": "crt",
+    "displayNames": [
+      "중국인의 나머지 정리",
+      "chinese remainder theorem",
+      "中国の剰余定理"
+    ]
+  },
+  {
+    "key": "cactus",
+    "displayNames": [
+      "선인장",
+      "cactus",
+      "サボテングラフ"
+    ]
+  },
+  {
+    "key": "pigeonhole_principle",
+    "displayNames": [
+      "비둘기집 원리",
+      "pigeonhole principle",
+      "鳩の巣原理"
+    ]
+  },
+  {
+    "key": "bellman_ford",
+    "displayNames": [
+      "벨만–포드",
+      "bellman–ford",
+      "ベルマンフォード法"
+    ]
+  },
+  {
+    "key": "planar_graph",
+    "displayNames": [
+      "평면 그래프",
+      "planar graph",
+      "平面グラフ"
+    ]
+  },
+  {
+    "key": "euler_phi",
+    "displayNames": [
+      "오일러 피 함수",
+      "euler totient function",
+      "euler totient function"
+    ]
+  },
+  {
+    "key": "splay_tree",
+    "displayNames": [
+      "스플레이 트리",
+      "splay tree",
+      "splay tree"
+    ]
+  },
+  {
+    "key": "pbs",
+    "displayNames": [
+      "병렬 이분 탐색",
+      "parallel binary search",
+      "parallel binary search"
+    ]
+  },
+  {
+    "key": "linked_list",
+    "displayNames": [
+      "연결 리스트",
+      "linked list",
+      "連結リスト"
+    ]
+  },
+  {
+    "key": "point_in_convex_polygon",
+    "displayNames": [
+      "볼록 다각형 내부의 점 판정",
+      "point in convex polygon check",
+      "凸多角形の点包含判定"
+    ]
+  },
+  {
+    "key": "mo",
+    "displayNames": [
+      "mo's",
+      "mo's",
+      "mo's"
+    ]
+  },
+  {
+    "key": "extended_euclidean",
+    "displayNames": [
+      "확장 유클리드 호제법",
+      "extended euclidean algorithm",
+      "拡張ユークリッドの互除法"
+    ]
+  },
+  {
+    "key": "deque_trick",
+    "displayNames": [
+      "덱을 이용한 구간 최댓값 트릭",
+      "deque range maximum trick",
+      "deque range maximum trick"
+    ]
+  },
+  {
+    "key": "divide_and_conquer_optimization",
+    "displayNames": [
+      "분할 정복을 사용한 최적화",
+      "divide and conquer optimization",
+      "divide and conquer optimization"
+    ]
+  },
+  {
+    "key": "multi_segtree",
+    "displayNames": [
+      "다차원 세그먼트 트리",
+      "multidimensional segment tree",
+      "multidimensional segment tree"
+    ]
+  },
+  {
+    "key": "rotating_calipers",
+    "displayNames": [
+      "회전하는 캘리퍼스",
+      "rotating calipers",
+      "rotating calipers"
+    ]
+  },
+  {
+    "key": "euler_characteristic",
+    "displayNames": [
+      "오일러 지표 (χ=V-E+F)",
+      "euler characteristic (χ=v-e+f)",
+      "オイラー特性（χ=v-e+f）"
+    ]
+  },
+  {
+    "key": "dp_deque",
+    "displayNames": [
+      "덱을 이용한 다이나믹 프로그래밍",
+      "dynamic programming using a deque",
+      "両端キューを使用した動的計画法"
+    ]
+  },
+  {
+    "key": "aho_corasick",
+    "displayNames": [
+      "아호-코라식",
+      "aho-corasick",
+      "アホコラシック"
+    ]
+  },
+  {
+    "key": "half_plane_intersection",
+    "displayNames": [
+      "반평면 교집합",
+      "half plane intersection",
+      "half plane intersection"
+    ]
+  },
+  {
+    "key": "regex",
+    "displayNames": [
+      "정규 표현식",
+      "regular expression",
+      "正規表現"
+    ]
+  },
+  {
+    "key": "slope_trick",
+    "displayNames": [
+      "함수 개형을 이용한 최적화",
+      "slope trick",
+      "slope trick"
+    ]
+  },
+  {
+    "key": "berlekamp_massey",
+    "displayNames": [
+      "벌리캠프–매시",
+      "berlekamp–massey",
+      "berlekamp–massey"
+    ]
+  },
+  {
+    "key": "manacher",
+    "displayNames": [
+      "매내처",
+      "manacher's",
+      "manacher's"
+    ]
+  },
+  {
+    "key": "merge_sort_tree",
+    "displayNames": [
+      "머지 소트 트리",
+      "merge sort tree",
+      "マージソート木"
+    ]
+  },
+  {
+    "key": "pollard_rho",
+    "displayNames": [
+      "폴라드 로",
+      "pollard rho",
+      "ポラード・ロー素因数分解法"
+    ]
+  },
+  {
+    "key": "link_cut_tree",
+    "displayNames": [
+      "링크/컷 트리",
+      "link/cut tree",
+      "link/cut tree"
+    ]
+  },
+  {
+    "key": "dp_connection_profile",
+    "displayNames": [
+      "커넥션 프로파일을 이용한 다이나믹 프로그래밍",
+      "dynamic programming using connection profile",
+      "dynamic programming using connection profile"
+    ]
+  },
+  {
+    "key": "miller_rabin",
+    "displayNames": [
+      "밀러–라빈 소수 판별법",
+      "miller–rabin",
+      "ミラー–ラビン素数判定法"
+    ]
+  },
+  {
+    "key": "tree_isomorphism",
+    "displayNames": [
+      "트리 동형 사상",
+      "tree isomorphism",
+      "木の同型性判定"
+    ]
+  },
+  {
+    "key": "simulated_annealing",
+    "displayNames": [
+      "담금질 기법",
+      "simulated annealing",
+      "焼き鈍し法"
+    ]
+  },
+  {
+    "key": "hungarian",
+    "displayNames": [
+      "헝가리안",
+      "hungarian",
+      "hungarian"
+    ]
+  },
+  {
+    "key": "mobius_inversion",
+    "displayNames": [
+      "뫼비우스 반전 공식",
+      "möbius inversion",
+      "メビウスの反転公式"
+    ]
+  },
+  {
+    "key": "hall",
+    "displayNames": [
+      "홀의 결혼 정리",
+      "hall's theorem",
+      "ホールの定理"
+    ]
+  },
+  {
+    "key": "rabin_karp",
+    "displayNames": [
+      "라빈–카프",
+      "rabin–karp",
+      "ラビン-カープ文字列検索"
+    ]
+  },
+  {
+    "key": "flood_fill",
+    "displayNames": [
+      "플러드 필",
+      "flood-fill",
+      "flood-fill"
+    ]
+  },
+  {
+    "key": "linear_programming",
+    "displayNames": [
+      "선형 계획법",
+      "linear programming",
+      "線型計画法"
+    ]
+  },
+  {
+    "key": "statistics",
+    "displayNames": [
+      "통계학",
+      "statistics",
+      "統計学"
+    ]
+  },
+  {
+    "key": "offline_dynamic_connectivity",
+    "displayNames": [
+      "오프라인 동적 연결성 판정",
+      "offline dynamic connectivity",
+      "offline dynamic connectivity"
+    ]
+  },
+  {
+    "key": "alien",
+    "displayNames": [
+      "Aliens 트릭",
+      "aliens trick",
+      "aliens法"
+    ]
+  },
+  {
+    "key": "circulation",
+    "displayNames": [
+      "서큘레이션",
+      "circulation",
+      "circulation"
+    ]
+  },
+  {
+    "key": "numerical_analysis",
+    "displayNames": [
+      "수치해석",
+      "numerical analysis",
+      "数値解析"
+    ]
+  },
+  {
+    "key": "dp_sum_over_subsets",
+    "displayNames": [
+      "부분집합의 합 다이나믹 프로그래밍",
+      "sum over subsets dynamic programming",
+      "sum over subsets dynamic programming"
+    ]
+  },
+  {
+    "key": "point_in_non_convex_polygon",
+    "displayNames": [
+      "오목 다각형 내부의 점 판정",
+      "point in non-convex polygon check",
+      "非凸多角形の点包含判定"
+    ]
+  },
+  {
+    "key": "duality",
+    "displayNames": [
+      "쌍대성",
+      "duality",
+      "双対性"
+    ]
+  },
+  {
+    "key": "tree_compression",
+    "displayNames": [
+      "트리 압축",
+      "tree compression",
+      "tree compression"
+    ]
+  },
+  {
+    "key": "lucas",
+    "displayNames": [
+      "뤼카 정리",
+      "lucas theorem",
+      "lucas theorem"
+    ]
+  },
+  {
+    "key": "matroid",
+    "displayNames": [
+      "매트로이드",
+      "matroid",
+      "マトロイド"
+    ]
+  },
+  {
+    "key": "voronoi",
+    "displayNames": [
+      "보로노이 다이어그램",
+      "voronoi diagram",
+      "ボロノイ図"
+    ]
+  },
+  {
+    "key": "dual_graph",
+    "displayNames": [
+      "쌍대 그래프",
+      "dual graph",
+      "双対グラフ"
+    ]
+  },
+  {
+    "key": "kitamasa",
+    "displayNames": [
+      "키타마사",
+      "kitamasa",
+      "きたまさ法"
+    ]
+  },
+  {
+    "key": "functional_graph",
+    "displayNames": [
+      "함수형 그래프",
+      "functional graph",
+      "functional graph"
+    ]
+  },
+  {
+    "key": "generating_function",
+    "displayNames": [
+      "생성 함수",
+      "generating function",
+      "生成関数"
+    ]
+  },
+  {
+    "key": "general_matching",
+    "displayNames": [
+      "일반적인 매칭",
+      "general matching",
+      "一般的なマッチング"
+    ]
+  },
+  {
+    "key": "tree_decomposition",
+    "displayNames": [
+      "트리 분할",
+      "tree decomposition",
+      "tree decomposition"
+    ]
+  },
+  {
+    "key": "cartesian_tree",
+    "displayNames": [
+      "데카르트 트리",
+      "cartesian tree",
+      "デカルト木"
+    ]
+  },
+  {
+    "key": "min_enclosing_circle",
+    "displayNames": [
+      "최소 외접원",
+      "minimum enclosing circle",
+      "最小外接円"
+    ]
+  },
+  {
+    "key": "burnside",
+    "displayNames": [
+      "번사이드 보조정리",
+      "burnside's lemma",
+      "バーンサイドの補題"
+    ]
+  },
+  {
+    "key": "discrete_log",
+    "displayNames": [
+      "이산 로그",
+      "discrete logarithm",
+      "離散対数"
+    ]
+  },
+  {
+    "key": "bidirectional_search",
+    "displayNames": [
+      "양방향 탐색",
+      "bidirectional search",
+      "bidirectional search"
+    ]
+  },
+  {
+    "key": "z",
+    "displayNames": [
+      "z",
+      "z",
+      "z"
+    ]
+  },
+  {
+    "key": "utf8",
+    "displayNames": [
+      "utf-8 입력 처리",
+      "utf-8 inputs",
+      "utf-8入力の処理"
+    ]
+  },
+  {
+    "key": "geometry_hyper",
+    "displayNames": [
+      "4차원 이상의 기하학",
+      "geometry; hyperdimensional",
+      "4次元以上での幾何学"
+    ]
+  },
+  {
+    "key": "monotone_queue_optimization",
+    "displayNames": [
+      "단조 큐를 이용한 최적화",
+      "monotone queue optimization",
+      "monotone queue optimization"
+    ]
+  },
+  {
+    "key": "pick",
+    "displayNames": [
+      "픽의 정리",
+      "pick's theorem",
+      "ピックの定理"
+    ]
+  },
+  {
+    "key": "knuth_x",
+    "displayNames": [
+      "크누스 X",
+      "knuth's x",
+      "knuth's x"
+    ]
+  },
+  {
+    "key": "dp_digit",
+    "displayNames": [
+      "자릿수를 이용한 다이나믹 프로그래밍",
+      "digit dp"
+    ]
+  },
+  {
+    "key": "top_tree",
+    "displayNames": [
+      "탑 트리",
+      "top tree",
+      "top tree"
+    ]
+  },
+  {
+    "key": "dominator_tree",
+    "displayNames": [
+      "도미네이터 트리",
+      "dominator tree",
+      "dominator tree"
+    ]
+  },
+  {
+    "key": "palindrome_tree",
+    "displayNames": [
+      "회문 트리",
+      "palindrome tree",
+      "palindrome tree"
+    ]
+  },
+  {
+    "key": "stable_marriage",
+    "displayNames": [
+      "안정 결혼 문제",
+      "stable marriage problem",
+      "stable marriage problem"
+    ]
+  },
+  {
+    "key": "delaunay",
+    "displayNames": [
+      "델로네 삼각분할",
+      "delaunay triangulation",
+      "ドロネー三角形分割"
+    ]
+  },
+  {
+    "key": "dancing_links",
+    "displayNames": [
+      "춤추는 링크",
+      "dancing links",
+      "dancing links"
+    ]
+  },
+  {
+    "key": "discrete_sqrt",
+    "displayNames": [
+      "이산 제곱근",
+      "discrete square root",
+      "離散平方根"
+    ]
+  },
+  {
+    "key": "degree_sequence",
+    "displayNames": [
+      "차수열",
+      "degree sequence",
+      "degree sequence"
+    ]
+  },
+  {
+    "key": "rope",
+    "displayNames": [
+      "로프",
+      "rope",
+      "rope"
+    ]
+  },
+  {
+    "key": "bayes",
+    "displayNames": [
+      "베이즈 정리",
+      "bayes theorem",
+      "ベイズの定理"
+    ]
+  },
+  {
+    "key": "knuth",
+    "displayNames": [
+      "크누스 최적화",
+      "knuth optimization",
+      "knuth optimization"
+    ]
+  },
+  {
+    "key": "hirschberg",
+    "displayNames": [
+      "히르쉬버그",
+      "hirschberg's",
+      "hirschberg's"
+    ]
+  },
+  {
+    "key": "suffix_tree",
+    "displayNames": [
+      "접미사 트리",
+      "suffix tree",
+      "suffix tree"
+    ]
+  },
+  {
+    "key": "chordal_graph",
+    "displayNames": [
+      "chordal graph",
+      "현 그래프",
+      "弦グラフ"
+    ]
+  },
+  {
+    "key": "lgv",
+    "displayNames": [
+      "린드스트롬–게셀–비엔노 보조정리",
+      "lindström–gessel–viennot lemma",
+      "lindström–gessel–viennot lemma"
+    ]
+  },
+  {
+    "key": "green",
+    "displayNames": [
+      "그린 정리",
+      "green's theorem",
+      "グリーンの定理"
+    ]
+  },
+  {
+    "key": "directed_mst",
+    "displayNames": [
+      "유향 최소 신장 트리",
+      "directed minimum spanning tree",
+      "最小全域有向木"
+    ]
+  },
+  {
+    "key": "stoer_wagner",
+    "displayNames": [
+      "스토어–바그너",
+      "stoer–wagner",
+      "stoer–wagner"
+    ]
+  },
+  {
+    "key": "polynomial_interpolation",
+    "displayNames": [
+      "다항식 보간법",
+      "polynomial interpolation",
+      "多項式補間"
+    ]
+  },
+  {
+    "key": "differential_cryptanalysis",
+    "displayNames": [
+      "차분 공격",
+      "differential cryptanalysis",
+      "differential cryptanalysis"
+    ]
+  },
+  {
+    "key": "majority_vote",
+    "displayNames": [
+      "보이어–무어 다수결 투표",
+      "boyer–moore majority vote",
+      "boyer–moore majority vote"
+    ]
+  },
+  {
+    "key": "gradient_descent",
+    "displayNames": [
+      "경사 하강법",
+      "gradient descent",
+      "勾配降下法"
+    ]
+  },
+  {
+    "key": "multipoint_evaluation",
+    "displayNames": [
+      "다중 대입값 계산",
+      "multipoint evaluation",
+      "多点評価"
+    ]
+  },
+  {
+    "key": "geometric_boolean_operations",
+    "displayNames": [
+      "도형에서의 불 연산",
+      "boolean operations on geometric objects",
+      "図形のブール演算"
+    ]
+  },
+  {
+    "key": "lte",
+    "displayNames": [
+      "지수승강 보조정리",
+      "lifting the exponent lemma",
+      "lifting the exponent lemma"
+    ]
+  },
+  {
+    "key": "birthday",
+    "displayNames": [
+      "생일 문제",
+      "birthday problem",
+      "birthday problem"
+    ]
+  },
+  {
+    "key": "hackenbush",
+    "displayNames": [
+      "하켄부시 게임",
+      "hackenbush",
+      "hackenbush"
+    ]
+  },
+  {
+    "key": "a_star",
+    "displayNames": [
+      "a*",
+      "a*",
+      "a*"
+    ]
+  },
+  {
+    "key": "rb_tree",
+    "displayNames": [
+      "레드-블랙 트리",
+      "red-black tree",
+      "red-black tree"
+    ]
+  },
+  {
+    "key": "discrete_kth_root",
+    "displayNames": [
+      "이산 k제곱근",
+      "discrete k-th root",
+      "離散k平方根"
+    ]
+  }
+]
