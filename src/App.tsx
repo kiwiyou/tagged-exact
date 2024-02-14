@@ -4,8 +4,12 @@ import { Challenge } from "./components/Challenge";
 
 type Tag = {
   key: string;
-  displayNames: { lang: string; name: string }[];
+  displayNames: { language: string; name: string; short: string }[];
 };
+
+function normalizeName(name: string) {
+  return name.toLowerCase().replace(/–/g, "-").replace(/\s/g, "");
+}
 
 export function App() {
   const [tags] = createResource<Tag[]>(() =>
@@ -33,7 +37,7 @@ export function App() {
   return (
     <>
       <header class="header">
-        <span>tagged-ex.ac/t</span>
+        <span>tagged-exact</span>
       </header>
       <Show when={tags()} fallback={<div class="loading">불러오는 중... </div>}>
         {(tags) => (
@@ -44,17 +48,21 @@ export function App() {
                 ({ key, displayNames }) =>
                   tag === key ||
                   displayNames.some(
-                    ({ name }) => name.replace(/–/g, "-") === tag,
+                    ({ name, short }) =>
+                      normalizeName(name) === normalizeName(tag) ||
+                      normalizeName(short) === normalizeName(tag),
                   ),
               );
+              console.log(matching);
               if (
                 matching &&
                 ac().every(([_displayName, key]) => key !== matching.key)
               )
                 setAc([
                   [
-                    matching.displayNames.find(({ lang }) => lang === "ko")
-                      ?.name ?? "",
+                    matching.displayNames.find(
+                      ({ language }) => language === "ko",
+                    )?.name ?? "",
                     matching.key,
                   ],
                   ...ac(),
