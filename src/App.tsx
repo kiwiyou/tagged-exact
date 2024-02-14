@@ -28,6 +28,7 @@ export function App() {
   const [mode, setMode] = createSignal<keyof typeof modeName>("sudden-death");
   const [life, setLife] = createSignal<number>(3);
   const [first, setFirst] = createSignal<HTMLLIElement | null>(null);
+  const [shake, setShake] = createSignal<Animation | null>(null);
   createEffect(() => {
     const li = first();
     if (!li) return;
@@ -100,6 +101,25 @@ export function App() {
                   ...ac(),
                 ]);
               else {
+                shake()?.finish();
+                const root = document.getElementById("root");
+                if (root) {
+                  setShake(
+                    root.animate(
+                      [
+                        { transform: "translate(0, 0) rotate(0deg)" },
+                        { transform: "translate(10px, 10px) rotate(2deg)" },
+                        { transform: "translate(0, 0) rotate(0deg)" },
+                        { transform: "translate(-10px, 10px) rotate(-2deg)" },
+                        { transform: "translate(0, 0) rotate(0deg)" },
+                      ],
+                      {
+                        iterations: 2,
+                        duration: 150,
+                      },
+                    ),
+                  );
+                }
                 if (mode() === "sudden-death") setFail(true);
                 if (mode() === "three-out") {
                   if (life() === 1) setFail(true);
@@ -165,6 +185,7 @@ export function App() {
               onClick={() => {
                 setFail(false);
                 setLife(1);
+                shake()?.finish();
               }}
             />
             <input
@@ -176,6 +197,7 @@ export function App() {
                 setFirst(null);
                 setFail(false);
                 setLife(3);
+                shake()?.finish();
               }}
             />
           </div>
