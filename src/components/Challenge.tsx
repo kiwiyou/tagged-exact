@@ -34,9 +34,10 @@ export function Challenge({ onInput, disabled }: ChallengeProps) {
         value="도전!"
         disabled={disabled}
         onClick={() => {
-          if (tag().trim().length === 0) return;
-          onInput?.(tag());
+          const t = tag();
+          if (t.trim().length === 0) return;
           setTag("");
+          onInput?.(t);
         }}
       />
     </div>
