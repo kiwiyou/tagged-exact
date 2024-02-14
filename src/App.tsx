@@ -8,14 +8,25 @@ type Tag = {
 };
 
 function normalizeName(name: string) {
-  return name.toLowerCase().replace(/–/g, "-").replace(/\s/g, "");
+  return name
+    .toLowerCase()
+    .replace(/[–\-_]/g, " ")
+    .replace(/\s/g, "");
 }
+
+const modeName = {
+  "sudden-death": "서든데스",
+  infinite: "무한 모드",
+  "three-out": "삼진아웃",
+};
 
 export function App() {
   const [tags] = createResource<Tag[]>(() =>
     fetch(new URL("/tags.json", location.href)).then((r) => r.json()),
   );
   const [ac, setAc] = createSignal<[string, string][]>([]);
+  const [mode, setMode] = createSignal<keyof typeof modeName>("sudden-death");
+  const [life, setLife] = createSignal<number>(3);
   const [first, setFirst] = createSignal<HTMLLIElement | null>(null);
   createEffect(() => {
     const li = first();
@@ -33,11 +44,32 @@ export function App() {
       100,
     );
   });
+  createEffect(() => {
+    mode();
+    setAc([]);
+    setFirst(null);
+    setLife(3);
+  });
   const [fail, setFail] = createSignal<boolean>(false);
   return (
     <>
       <header class="header">
-        <span>tagged-exact</span>
+        <span class="title">tagged-exact</span>
+        <fieldset id="mode">
+          {Object.entries(modeName).map(([key, value]) => (
+            <label for={key}>
+              <input
+                id={key}
+                type="radio"
+                name="mode"
+                value={key}
+                checked={key === mode()}
+                onClick={() => setMode(key as keyof typeof modeName)}
+              />
+              <span>{value}</span>
+            </label>
+          ))}
+        </fieldset>
       </header>
       <Show when={tags()} fallback={<div class="loading">불러오는 중... </div>}>
         {(tags) => (
@@ -67,14 +99,38 @@ export function App() {
                   ],
                   ...ac(),
                 ]);
-              else setFail(true);
+              else {
+                if (mode() === "sudden-death") setFail(true);
+                if (mode() === "three-out") {
+                  if (life() === 1) setFail(true);
+                  else setLife((life) => life - 1);
+                }
+              }
             }}
           />
         )}
       </Show>
       <div class="status">
+        <Show when={mode() === "three-out"}>
+          <div class="lives">
+            {Array.from({ length: 3 }).map((_v, i) => (
+              <img
+                src="/heart.svg"
+                alt="life"
+                style={{ opacity: i < life() ? undefined : 0.5 }}
+              />
+            ))}
+          </div>
+        </Show>
         <header class="progress">
-          {ac().length}/{tags()?.length || "?"}
+          <progress
+            class="progress-bar"
+            max={tags()?.length || 0}
+            value={ac().length}
+          />
+          <div>
+            {ac().length}/{tags()?.length || "?"}
+          </div>
         </header>
         <ul class="tag-list">
           {ac().map(([displayName, key], index) => (
@@ -91,16 +147,38 @@ export function App() {
       <Show when={fail()}>
         <div class="fail">
           <div class="fail-text">실패!</div>
-          <input
-            type="button"
-            class="button"
-            value="재시작"
-            onClick={() => {
-              setAc([]);
-              setFirst(null);
-              setFail(false);
-            }}
-          />
+          <div class="progress">
+            <progress
+              class="progress-bar"
+              max={tags()?.length || 0}
+              value={ac().length}
+            />
+            <div>
+              {ac().length}/{tags()?.length || "?"}
+            </div>
+          </div>
+          <div class="button-group">
+            <input
+              type="button"
+              class="button"
+              value="한 수 무르기"
+              onClick={() => {
+                setFail(false);
+                setLife(1);
+              }}
+            />
+            <input
+              type="button"
+              class="button"
+              value="재시작"
+              onClick={() => {
+                setAc([]);
+                setFirst(null);
+                setFail(false);
+                setLife(3);
+              }}
+            />
+          </div>
         </div>
       </Show>
     </>

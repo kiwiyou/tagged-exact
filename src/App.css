@@ -2,7 +2,7 @@
   display: grid;
   height: 100dvh;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto minmax(0, 1fr) auto;
+  grid-template-rows: 0.4fr auto minmax(0, 1fr) auto;
   justify-items: stretch;
 }
 
@@ -15,8 +15,24 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+
+.title {
   font-size: 2em;
   font-weight: bold;
+}
+
+.lives {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.8em;
+  gap: 0.2em;
+}
+
+.lives img {
+  height: 1em;
+  width: 1em;
 }
 
 .status {
@@ -26,8 +42,32 @@
 }
 
 .progress {
-  text-align: center;
-  margin-bottom: 1em;
+  color: #000;
+  position: relative;
+  font-size: 0.8em;
+  height: 1.5em;
+  margin: 1em;
+}
+
+.progress > * {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.progress-bar {
+  appearance: none;
+  border: none;
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 1em;
+}
+
+.progress-bar::-webkit-progress-value, .progress-bar::-moz-progress-bar {
+  background: #17cf39;
+  box-shadow: #17cf3966 0px 0px 8px;
 }
 
 .tag-list {
@@ -74,7 +114,7 @@
 }
 
 .challenge {
-  margin: 1em;
+  margin: 0;
 }
 
 footer {
@@ -133,4 +173,44 @@ footer {
 
 p {
   margin: 0;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+#mode {
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #2c3640;
+  border-radius: 1em;
+  background: #15202b;
+  margin: 0.5em;
+  padding: 0.4em 0.2em;
+}
+
+#mode:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#mode input {
+  display: none;
+}
+
+#mode label {
+  cursor: pointer;
+}
+
+#mode input ~ span {
+  padding: 0.2em 0.4em;
+  border-radius: 1em;
+}
+
+#mode input:checked ~ span {
+  background: #2c3640;
 }
