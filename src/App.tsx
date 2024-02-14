@@ -46,7 +46,7 @@ export function App() {
             onInput={(tag) => {
               const matching = tags().find(
                 ({ key, displayNames }) =>
-                  tag === key ||
+                  normalizeName(tag) === normalizeName(key) ||
                   displayNames.some(
                     ({ name, short }) =>
                       normalizeName(name) === normalizeName(tag) ||
