@@ -38,6 +38,7 @@ export function App() {
       <Show when={tags()} fallback={<div class="loading">불러오는 중... </div>}>
         {(tags) => (
           <Challenge
+            disabled={fail()}
             onInput={(tag) => {
               const matching = tags().find(
                 ({ key, displayNames }) =>

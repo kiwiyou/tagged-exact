@@ -3,9 +3,10 @@ import "./Challenge.css";
 
 export interface ChallengeProps {
   onInput?: (tag: string) => void;
+  disabled?: boolean;
 }
 
-export function Challenge({ onInput }: ChallengeProps) {
+export function Challenge({ onInput, disabled }: ChallengeProps) {
   let submitButton!: HTMLInputElement;
   const [tag, setTag] = createSignal("");
   return (
@@ -16,6 +17,7 @@ export function Challenge({ onInput }: ChallengeProps) {
           class="input"
           size="1"
           type="text"
+          disabled={disabled}
           onInput={(e) => {
             setTag(e.target.value);
           }}
@@ -30,7 +32,9 @@ export function Challenge({ onInput }: ChallengeProps) {
         class="button"
         type="button"
         value="도전!"
+        disabled={disabled}
         onClick={() => {
+          if (tag().trim().length === 0) return;
           onInput?.(tag());
           setTag("");
         }}
