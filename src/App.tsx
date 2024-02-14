@@ -51,13 +51,13 @@ export function App() {
                 matching &&
                 ac().every(([_displayName, key]) => key !== matching.key)
               )
-                setAc((ac) => [
+                setAc([
                   [
                     matching.displayNames.find(({ lang }) => lang === "ko")
                       ?.name ?? "",
                     matching.key,
                   ],
-                  ...ac,
+                  ...ac(),
                 ]);
               else setFail(true);
             }}
