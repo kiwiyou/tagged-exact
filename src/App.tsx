@@ -4,7 +4,7 @@ import { Challenge } from "./components/Challenge";
 
 type Tag = {
   key: string;
-  displayNames: string[];
+  displayNames: { lang: string; name: string }[];
 };
 
 export function App() {
@@ -42,14 +42,20 @@ export function App() {
               const matching = tags().find(
                 ({ key, displayNames }) =>
                   tag === key ||
-                  displayNames.some((name) => name.replace(/–/g, "-") === tag),
+                  displayNames.some(
+                    ({ name }) => name.replace(/–/g, "-") === tag,
+                  ),
               );
               if (
                 matching &&
                 ac().every(([_displayName, key]) => key !== matching.key)
               )
                 setAc((ac) => [
-                  [matching.displayNames[0], matching.key],
+                  [
+                    matching.displayNames.find(({ lang }) => lang === "ko")
+                      ?.name ?? "",
+                    matching.key,
+                  ],
                   ...ac,
                 ]);
               else setFail(true);

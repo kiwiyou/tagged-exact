@@ -2,1640 +2,3482 @@
   {
     "key": "math",
     "displayNames": [
-      "수학",
-      "mathematics",
-      "数学"
+      {
+        "lang": "ko",
+        "name": "수학"
+      },
+      {
+        "lang": "en",
+        "name": "mathematics"
+      },
+      {
+        "lang": "ja",
+        "name": "数学"
+      }
     ]
   },
   {
     "key": "implementation",
     "displayNames": [
-      "구현",
-      "implementation",
-      "実装"
+      {
+        "lang": "ko",
+        "name": "구현"
+      },
+      {
+        "lang": "en",
+        "name": "implementation"
+      },
+      {
+        "lang": "ja",
+        "name": "実装"
+      }
     ]
   },
   {
     "key": "dp",
     "displayNames": [
-      "다이나믹 프로그래밍",
-      "dynamic programming",
-      "動的計画法"
+      {
+        "lang": "ko",
+        "name": "다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "dynamic programming"
+      },
+      {
+        "lang": "ja",
+        "name": "動的計画法"
+      }
     ]
   },
   {
     "key": "data_structures",
     "displayNames": [
-      "자료 구조",
-      "data structures",
-      "データ構造"
+      {
+        "lang": "ko",
+        "name": "자료 구조"
+      },
+      {
+        "lang": "en",
+        "name": "data structures"
+      },
+      {
+        "lang": "ja",
+        "name": "データ構造"
+      }
     ]
   },
   {
     "key": "graphs",
     "displayNames": [
-      "그래프 이론",
-      "graph theory",
-      "グラフ理論"
+      {
+        "lang": "ko",
+        "name": "그래프 이론"
+      },
+      {
+        "lang": "en",
+        "name": "graph theory"
+      },
+      {
+        "lang": "ja",
+        "name": "グラフ理論"
+      }
     ]
   },
   {
     "key": "greedy",
     "displayNames": [
-      "그리디 알고리즘",
-      "greedy",
-      "貪欲法"
+      {
+        "lang": "ko",
+        "name": "그리디 알고리즘"
+      },
+      {
+        "lang": "en",
+        "name": "greedy"
+      },
+      {
+        "lang": "ja",
+        "name": "貪欲法"
+      }
     ]
   },
   {
     "key": "string",
     "displayNames": [
-      "문자열",
-      "string",
-      "文字列"
+      {
+        "lang": "ko",
+        "name": "문자열"
+      },
+      {
+        "lang": "en",
+        "name": "string"
+      },
+      {
+        "lang": "ja",
+        "name": "文字列"
+      }
     ]
   },
   {
     "key": "bruteforcing",
     "displayNames": [
-      "브루트포스 알고리즘",
-      "bruteforcing",
-      "全探索"
+      {
+        "lang": "ko",
+        "name": "브루트포스 알고리즘"
+      },
+      {
+        "lang": "en",
+        "name": "bruteforcing"
+      },
+      {
+        "lang": "ja",
+        "name": "全探索"
+      }
     ]
   },
   {
     "key": "graph_traversal",
     "displayNames": [
-      "그래프 탐색",
-      "graph traversal",
-      "グラフの探索"
+      {
+        "lang": "ko",
+        "name": "그래프 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "graph traversal"
+      },
+      {
+        "lang": "ja",
+        "name": "グラフの探索"
+      }
     ]
   },
   {
     "key": "sorting",
     "displayNames": [
-      "정렬",
-      "sorting",
-      "ソート"
+      {
+        "lang": "ko",
+        "name": "정렬"
+      },
+      {
+        "lang": "en",
+        "name": "sorting"
+      },
+      {
+        "lang": "ja",
+        "name": "ソート"
+      }
     ]
   },
   {
     "key": "geometry",
     "displayNames": [
-      "기하학",
-      "geometry",
-      "幾何学"
+      {
+        "lang": "ko",
+        "name": "기하학"
+      },
+      {
+        "lang": "en",
+        "name": "geometry"
+      },
+      {
+        "lang": "ja",
+        "name": "幾何学"
+      }
     ]
   },
   {
     "key": "number_theory",
     "displayNames": [
-      "정수론",
-      "number theory",
-      "整数論"
+      {
+        "lang": "ko",
+        "name": "정수론"
+      },
+      {
+        "lang": "en",
+        "name": "number theory"
+      },
+      {
+        "lang": "ja",
+        "name": "整数論"
+      }
     ]
   },
   {
     "key": "trees",
     "displayNames": [
-      "트리",
-      "tree",
-      "木"
+      {
+        "lang": "ko",
+        "name": "트리"
+      },
+      {
+        "lang": "en",
+        "name": "tree"
+      },
+      {
+        "lang": "ja",
+        "name": "木"
+      }
     ]
   },
   {
     "key": "ad_hoc",
     "displayNames": [
-      "애드 혹",
-      "ad-hoc",
-      "アドホック"
+      {
+        "lang": "ko",
+        "name": "애드 혹"
+      },
+      {
+        "lang": "en",
+        "name": "ad-hoc"
+      },
+      {
+        "lang": "ja",
+        "name": "アドホック"
+      }
     ]
   },
   {
     "key": "segtree",
     "displayNames": [
-      "세그먼트 트리",
-      "segment tree",
-      "セグメント木"
+      {
+        "lang": "ko",
+        "name": "세그먼트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "segment tree"
+      },
+      {
+        "lang": "ja",
+        "name": "セグメント木"
+      }
     ]
   },
   {
     "key": "binary_search",
     "displayNames": [
-      "이분 탐색",
-      "binary search",
-      "二分探索"
+      {
+        "lang": "ko",
+        "name": "이분 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "binary search"
+      },
+      {
+        "lang": "ja",
+        "name": "二分探索"
+      }
     ]
   },
   {
     "key": "arithmetic",
     "displayNames": [
-      "사칙연산",
-      "arithmetic",
-      "算数"
+      {
+        "lang": "ko",
+        "name": "사칙연산"
+      },
+      {
+        "lang": "en",
+        "name": "arithmetic"
+      },
+      {
+        "lang": "ja",
+        "name": "算数"
+      }
     ]
   },
   {
     "key": "simulation",
     "displayNames": [
-      "시뮬레이션",
-      "simulation",
-      "シミュレーション"
+      {
+        "lang": "ko",
+        "name": "시뮬레이션"
+      },
+      {
+        "lang": "en",
+        "name": "simulation"
+      },
+      {
+        "lang": "ja",
+        "name": "シミュレーション"
+      }
     ]
   },
   {
     "key": "bfs",
     "displayNames": [
-      "너비 우선 탐색",
-      "breadth-first search",
-      "幅優先検索"
+      {
+        "lang": "ko",
+        "name": "너비 우선 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "breadth-first search"
+      },
+      {
+        "lang": "ja",
+        "name": "幅優先検索"
+      }
     ]
   },
   {
     "key": "constructive",
     "displayNames": [
-      "해 구성하기",
-      "constructive",
-      "構成的"
+      {
+        "lang": "ko",
+        "name": "해 구성하기"
+      },
+      {
+        "lang": "en",
+        "name": "constructive"
+      },
+      {
+        "lang": "ja",
+        "name": "構成的"
+      }
     ]
   },
   {
     "key": "prefix_sum",
     "displayNames": [
-      "누적 합",
-      "prefix sum",
-      "累積和"
+      {
+        "lang": "ko",
+        "name": "누적 합"
+      },
+      {
+        "lang": "en",
+        "name": "prefix sum"
+      },
+      {
+        "lang": "ja",
+        "name": "累積和"
+      }
     ]
   },
   {
     "key": "combinatorics",
     "displayNames": [
-      "조합론",
-      "combinatorics",
-      "組み合わせ"
+      {
+        "lang": "ko",
+        "name": "조합론"
+      },
+      {
+        "lang": "en",
+        "name": "combinatorics"
+      },
+      {
+        "lang": "ja",
+        "name": "組み合わせ"
+      }
     ]
   },
   {
     "key": "case_work",
     "displayNames": [
-      "많은 조건 분기",
-      "case work",
-      "ケースワーク"
+      {
+        "lang": "ko",
+        "name": "많은 조건 분기"
+      },
+      {
+        "lang": "en",
+        "name": "case work"
+      },
+      {
+        "lang": "ja",
+        "name": "ケースワーク"
+      }
     ]
   },
   {
     "key": "dfs",
     "displayNames": [
-      "깊이 우선 탐색",
-      "depth-first search",
-      "深さ優先探索"
+      {
+        "lang": "ko",
+        "name": "깊이 우선 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "depth-first search"
+      },
+      {
+        "lang": "ja",
+        "name": "深さ優先探索"
+      }
     ]
   },
   {
     "key": "shortest_path",
     "displayNames": [
-      "최단 경로",
-      "shortest path",
-      "最短経路"
+      {
+        "lang": "ko",
+        "name": "최단 경로"
+      },
+      {
+        "lang": "en",
+        "name": "shortest path"
+      },
+      {
+        "lang": "ja",
+        "name": "最短経路"
+      }
     ]
   },
   {
     "key": "bitmask",
     "displayNames": [
-      "비트마스킹",
-      "bitmask",
-      "ビット表現"
+      {
+        "lang": "ko",
+        "name": "비트마스킹"
+      },
+      {
+        "lang": "en",
+        "name": "bitmask"
+      },
+      {
+        "lang": "ja",
+        "name": "ビット表現"
+      }
     ]
   },
   {
     "key": "hash_set",
     "displayNames": [
-      "해시를 사용한 집합과 맵",
-      "set / map by hashing",
-      "ハッシュ化によるセット・マップ"
+      {
+        "lang": "ko",
+        "name": "해시를 사용한 집합과 맵"
+      },
+      {
+        "lang": "en",
+        "name": "set / map by hashing"
+      },
+      {
+        "lang": "ja",
+        "name": "ハッシュ化によるセット・マップ"
+      }
     ]
   },
   {
     "key": "dijkstra",
     "displayNames": [
-      "데이크스트라",
-      "dijkstra's",
-      "ダイクストラ法"
+      {
+        "lang": "ko",
+        "name": "데이크스트라"
+      },
+      {
+        "lang": "en",
+        "name": "dijkstra's"
+      },
+      {
+        "lang": "ja",
+        "name": "ダイクストラ法"
+      }
     ]
   },
   {
     "key": "backtracking",
     "displayNames": [
-      "백트래킹",
-      "backtracking",
-      "バックトラック法"
+      {
+        "lang": "ko",
+        "name": "백트래킹"
+      },
+      {
+        "lang": "en",
+        "name": "backtracking"
+      },
+      {
+        "lang": "ja",
+        "name": "バックトラック法"
+      }
     ]
   },
   {
     "key": "tree_set",
     "displayNames": [
-      "트리를 사용한 집합과 맵",
-      "set / map by trees",
-      "木によるセット・マップ"
+      {
+        "lang": "ko",
+        "name": "트리를 사용한 집합과 맵"
+      },
+      {
+        "lang": "en",
+        "name": "set / map by trees"
+      },
+      {
+        "lang": "ja",
+        "name": "木によるセット・マップ"
+      }
     ]
   },
   {
     "key": "sweeping",
     "displayNames": [
-      "스위핑",
-      "sweeping",
-      "平面走査"
+      {
+        "lang": "ko",
+        "name": "스위핑"
+      },
+      {
+        "lang": "en",
+        "name": "sweeping"
+      },
+      {
+        "lang": "ja",
+        "name": "平面走査"
+      }
     ]
   },
   {
     "key": "disjoint_set",
     "displayNames": [
-      "분리 집합",
-      "disjoint set",
-      "素集合データ構造"
+      {
+        "lang": "ko",
+        "name": "분리 집합"
+      },
+      {
+        "lang": "en",
+        "name": "disjoint set"
+      },
+      {
+        "lang": "ja",
+        "name": "素集合データ構造"
+      }
     ]
   },
   {
     "key": "parsing",
     "displayNames": [
-      "파싱",
-      "parsing",
-      "パージング"
+      {
+        "lang": "ko",
+        "name": "파싱"
+      },
+      {
+        "lang": "en",
+        "name": "parsing"
+      },
+      {
+        "lang": "ja",
+        "name": "パージング"
+      }
     ]
   },
   {
     "key": "dp_tree",
     "displayNames": [
-      "트리에서의 다이나믹 프로그래밍",
-      "dynamic programming on trees",
-      "木上の動的計画法"
+      {
+        "lang": "ko",
+        "name": "트리에서의 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "dynamic programming on trees"
+      },
+      {
+        "lang": "ja",
+        "name": "木上の動的計画法"
+      }
     ]
   },
   {
     "key": "divide_and_conquer",
     "displayNames": [
-      "분할 정복",
-      "divide and conquer",
-      "分割統治法"
+      {
+        "lang": "ko",
+        "name": "분할 정복"
+      },
+      {
+        "lang": "en",
+        "name": "divide and conquer"
+      },
+      {
+        "lang": "ja",
+        "name": "分割統治法"
+      }
     ]
   },
   {
     "key": "priority_queue",
     "displayNames": [
-      "우선순위 큐",
-      "priority queue",
-      "優先度付きキュー"
+      {
+        "lang": "ko",
+        "name": "우선순위 큐"
+      },
+      {
+        "lang": "en",
+        "name": "priority queue"
+      },
+      {
+        "lang": "ja",
+        "name": "優先度付きキュー"
+      }
     ]
   },
   {
     "key": "stack",
     "displayNames": [
-      "스택",
-      "stack",
-      "スタック"
+      {
+        "lang": "ko",
+        "name": "스택"
+      },
+      {
+        "lang": "en",
+        "name": "stack"
+      },
+      {
+        "lang": "ja",
+        "name": "スタック"
+      }
     ]
   },
   {
     "key": "two_pointer",
     "displayNames": [
-      "두 포인터",
-      "two-pointer",
-      "尺取り法"
+      {
+        "lang": "ko",
+        "name": "두 포인터"
+      },
+      {
+        "lang": "en",
+        "name": "two-pointer"
+      },
+      {
+        "lang": "ja",
+        "name": "尺取り法"
+      }
     ]
   },
   {
     "key": "parametric_search",
     "displayNames": [
-      "매개 변수 탐색",
-      "parametric search",
-      "parametric search"
+      {
+        "lang": "ko",
+        "name": "매개 변수 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "parametric search"
+      },
+      {
+        "lang": "ja",
+        "name": "parametric search"
+      }
     ]
   },
   {
     "key": "game_theory",
     "displayNames": [
-      "게임 이론",
-      "game theory",
-      "ゲーム理論"
+      {
+        "lang": "ko",
+        "name": "게임 이론"
+      },
+      {
+        "lang": "en",
+        "name": "game theory"
+      },
+      {
+        "lang": "ja",
+        "name": "ゲーム理論"
+      }
     ]
   },
   {
     "key": "flow",
     "displayNames": [
-      "최대 유량",
-      "maximum flow",
-      "最大フロー"
+      {
+        "lang": "ko",
+        "name": "최대 유량"
+      },
+      {
+        "lang": "en",
+        "name": "maximum flow"
+      },
+      {
+        "lang": "ja",
+        "name": "最大フロー"
+      }
     ]
   },
   {
     "key": "primality_test",
     "displayNames": [
-      "소수 판정",
-      "primality test",
-      "素数性テスト"
+      {
+        "lang": "ko",
+        "name": "소수 판정"
+      },
+      {
+        "lang": "en",
+        "name": "primality test"
+      },
+      {
+        "lang": "ja",
+        "name": "素数性テスト"
+      }
     ]
   },
   {
     "key": "dp_bitfield",
     "displayNames": [
-      "비트필드를 이용한 다이나믹 프로그래밍",
-      "dynamic programming using bitfield",
-      "ビットを使用した動的計画法"
+      {
+        "lang": "ko",
+        "name": "비트필드를 이용한 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "dynamic programming using bitfield"
+      },
+      {
+        "lang": "ja",
+        "name": "ビットを使用した動的計画法"
+      }
     ]
   },
   {
     "key": "lazyprop",
     "displayNames": [
-      "느리게 갱신되는 세그먼트 트리",
-      "segment tree with lazy propagation",
-      "遅延評価セグメント木"
+      {
+        "lang": "ko",
+        "name": "느리게 갱신되는 세그먼트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "segment tree with lazy propagation"
+      },
+      {
+        "lang": "ja",
+        "name": "遅延評価セグメント木"
+      }
     ]
   },
   {
     "key": "exponentiation_by_squaring",
     "displayNames": [
-      "분할 정복을 이용한 거듭제곱",
-      "exponentiation by squaring",
-      "二乗法によるべき乗"
+      {
+        "lang": "ko",
+        "name": "분할 정복을 이용한 거듭제곱"
+      },
+      {
+        "lang": "en",
+        "name": "exponentiation by squaring"
+      },
+      {
+        "lang": "ja",
+        "name": "二乗法によるべき乗"
+      }
     ]
   },
   {
     "key": "probability",
     "displayNames": [
-      "확률론",
-      "probability theory",
-      "確率論"
+      {
+        "lang": "ko",
+        "name": "확률론"
+      },
+      {
+        "lang": "en",
+        "name": "probability theory"
+      },
+      {
+        "lang": "ja",
+        "name": "確率論"
+      }
     ]
   },
   {
     "key": "arbitrary_precision",
     "displayNames": [
-      "임의 정밀도 / 큰 수 연산",
-      "arbitrary precision / big integers",
-      "高精度または大きな数の演算"
+      {
+        "lang": "ko",
+        "name": "임의 정밀도 / 큰 수 연산"
+      },
+      {
+        "lang": "en",
+        "name": "arbitrary precision / big integers"
+      },
+      {
+        "lang": "ja",
+        "name": "高精度または大きな数の演算"
+      }
     ]
   },
   {
     "key": "offline_queries",
     "displayNames": [
-      "오프라인 쿼리",
-      "offline queries",
-      "offline queries"
+      {
+        "lang": "ko",
+        "name": "오프라인 쿼리"
+      },
+      {
+        "lang": "en",
+        "name": "offline queries"
+      },
+      {
+        "lang": "ja",
+        "name": "offline queries"
+      }
     ]
   },
   {
     "key": "knapsack",
     "displayNames": [
-      "배낭 문제",
-      "knapsack",
-      "ナップサック問題"
+      {
+        "lang": "ko",
+        "name": "배낭 문제"
+      },
+      {
+        "lang": "en",
+        "name": "knapsack"
+      },
+      {
+        "lang": "ja",
+        "name": "ナップサック問題"
+      }
     ]
   },
   {
     "key": "recursion",
     "displayNames": [
-      "재귀",
-      "recursion",
-      "再帰"
+      {
+        "lang": "ko",
+        "name": "재귀"
+      },
+      {
+        "lang": "en",
+        "name": "recursion"
+      },
+      {
+        "lang": "ja",
+        "name": "再帰"
+      }
     ]
   },
   {
     "key": "coordinate_compression",
     "displayNames": [
-      "값 / 좌표 압축",
-      "value / coordinate compression",
-      "value / coordinate compression"
+      {
+        "lang": "ko",
+        "name": "값 / 좌표 압축"
+      },
+      {
+        "lang": "en",
+        "name": "value / coordinate compression"
+      },
+      {
+        "lang": "ja",
+        "name": "value / coordinate compression"
+      }
     ]
   },
   {
     "key": "precomputation",
     "displayNames": [
-      "런타임 전의 전처리",
-      "precomputation",
-      "事前計算"
+      {
+        "lang": "ko",
+        "name": "런타임 전의 전처리"
+      },
+      {
+        "lang": "en",
+        "name": "precomputation"
+      },
+      {
+        "lang": "ja",
+        "name": "事前計算"
+      }
     ]
   },
   {
     "key": "sieve",
     "displayNames": [
-      "에라토스테네스의 체",
-      "sieve of eratosthenes",
-      "エラトステネスの篩"
+      {
+        "lang": "ko",
+        "name": "에라토스테네스의 체"
+      },
+      {
+        "lang": "en",
+        "name": "sieve of eratosthenes"
+      },
+      {
+        "lang": "ja",
+        "name": "エラトステネスの篩"
+      }
     ]
   },
   {
     "key": "mst",
     "displayNames": [
-      "최소 스패닝 트리",
-      "minimum spanning tree",
-      "最小全域木"
+      {
+        "lang": "ko",
+        "name": "최소 스패닝 트리"
+      },
+      {
+        "lang": "en",
+        "name": "minimum spanning tree"
+      },
+      {
+        "lang": "ja",
+        "name": "最小全域木"
+      }
     ]
   },
   {
     "key": "euclidean",
     "displayNames": [
-      "유클리드 호제법",
-      "euclidean algorithm",
-      "ユークリッドの互除法"
+      {
+        "lang": "ko",
+        "name": "유클리드 호제법"
+      },
+      {
+        "lang": "en",
+        "name": "euclidean algorithm"
+      },
+      {
+        "lang": "ja",
+        "name": "ユークリッドの互除法"
+      }
     ]
   },
   {
     "key": "bipartite_matching",
     "displayNames": [
-      "이분 매칭",
-      "bipartite matching",
-      "2部マッチング"
+      {
+        "lang": "ko",
+        "name": "이분 매칭"
+      },
+      {
+        "lang": "en",
+        "name": "bipartite matching"
+      },
+      {
+        "lang": "ja",
+        "name": "2部マッチング"
+      }
     ]
   },
   {
     "key": "dag",
     "displayNames": [
-      "방향 비순환 그래프",
-      "directed acyclic graph",
-      "有向非巡回グラフ"
+      {
+        "lang": "ko",
+        "name": "방향 비순환 그래프"
+      },
+      {
+        "lang": "en",
+        "name": "directed acyclic graph"
+      },
+      {
+        "lang": "ja",
+        "name": "有向非巡回グラフ"
+      }
     ]
   },
   {
     "key": "convex_hull",
     "displayNames": [
-      "볼록 껍질",
-      "convex hull",
-      "凸包"
+      {
+        "lang": "ko",
+        "name": "볼록 껍질"
+      },
+      {
+        "lang": "en",
+        "name": "convex hull"
+      },
+      {
+        "lang": "ja",
+        "name": "凸包"
+      }
     ]
   },
   {
     "key": "linear_algebra",
     "displayNames": [
-      "선형대수학",
-      "linear algebra",
-      "線形代数"
+      {
+        "lang": "ko",
+        "name": "선형대수학"
+      },
+      {
+        "lang": "en",
+        "name": "linear algebra"
+      },
+      {
+        "lang": "ja",
+        "name": "線形代数"
+      }
     ]
   },
   {
     "key": "lca",
     "displayNames": [
-      "최소 공통 조상",
-      "lowest common ancestor",
-      "最下位共通祖先"
+      {
+        "lang": "ko",
+        "name": "최소 공통 조상"
+      },
+      {
+        "lang": "en",
+        "name": "lowest common ancestor"
+      },
+      {
+        "lang": "ja",
+        "name": "最下位共通祖先"
+      }
     ]
   },
   {
     "key": "floyd_warshall",
     "displayNames": [
-      "플로이드–워셜",
-      "floyd–warshall",
-      "ワーシャル–フロイド法"
+      {
+        "lang": "ko",
+        "name": "플로이드–워셜"
+      },
+      {
+        "lang": "en",
+        "name": "floyd–warshall"
+      },
+      {
+        "lang": "ja",
+        "name": "ワーシャル–フロイド法"
+      }
     ]
   },
   {
     "key": "topological_sorting",
     "displayNames": [
-      "위상 정렬",
-      "topological sorting",
-      "トポロジカルソート"
+      {
+        "lang": "ko",
+        "name": "위상 정렬"
+      },
+      {
+        "lang": "en",
+        "name": "topological sorting"
+      },
+      {
+        "lang": "ja",
+        "name": "トポロジカルソート"
+      }
     ]
   },
   {
     "key": "hashing",
     "displayNames": [
-      "해싱",
-      "hashing",
-      "ハッシュ化"
+      {
+        "lang": "ko",
+        "name": "해싱"
+      },
+      {
+        "lang": "en",
+        "name": "hashing"
+      },
+      {
+        "lang": "ja",
+        "name": "ハッシュ化"
+      }
     ]
   },
   {
     "key": "inclusion_and_exclusion",
     "displayNames": [
-      "포함 배제의 원리",
-      "inclusion and exclusion",
-      "包除原理"
+      {
+        "lang": "ko",
+        "name": "포함 배제의 원리"
+      },
+      {
+        "lang": "en",
+        "name": "inclusion and exclusion"
+      },
+      {
+        "lang": "ja",
+        "name": "包除原理"
+      }
     ]
   },
   {
     "key": "scc",
     "displayNames": [
-      "강한 연결 요소",
-      "strongly connected component",
-      "強連結"
+      {
+        "lang": "ko",
+        "name": "강한 연결 요소"
+      },
+      {
+        "lang": "en",
+        "name": "strongly connected component"
+      },
+      {
+        "lang": "ja",
+        "name": "強連結"
+      }
     ]
   },
   {
     "key": "randomization",
     "displayNames": [
-      "무작위화",
-      "randomization",
-      "ランダム化"
+      {
+        "lang": "ko",
+        "name": "무작위화"
+      },
+      {
+        "lang": "en",
+        "name": "randomization"
+      },
+      {
+        "lang": "ja",
+        "name": "ランダム化"
+      }
     ]
   },
   {
     "key": "sparse_table",
     "displayNames": [
-      "희소 배열",
-      "sparse table",
-      "sparse table"
+      {
+        "lang": "ko",
+        "name": "희소 배열"
+      },
+      {
+        "lang": "en",
+        "name": "sparse table"
+      },
+      {
+        "lang": "ja",
+        "name": "sparse table"
+      }
     ]
   },
   {
     "key": "trie",
     "displayNames": [
-      "트라이",
-      "trie",
-      "トライ木"
+      {
+        "lang": "ko",
+        "name": "트라이"
+      },
+      {
+        "lang": "en",
+        "name": "trie"
+      },
+      {
+        "lang": "ja",
+        "name": "トライ木"
+      }
     ]
   },
   {
     "key": "smaller_to_larger",
     "displayNames": [
-      "작은 집합에서 큰 집합으로 합치는 테크닉",
-      "smaller to larger technique",
-      "smaller to larger technique"
+      {
+        "lang": "ko",
+        "name": "작은 집합에서 큰 집합으로 합치는 테크닉"
+      },
+      {
+        "lang": "en",
+        "name": "smaller to larger technique"
+      },
+      {
+        "lang": "ja",
+        "name": "smaller to larger technique"
+      }
     ]
   },
   {
     "key": "fft",
     "displayNames": [
-      "고속 푸리에 변환",
-      "fast fourier transform",
-      "高速フーリエ変換"
+      {
+        "lang": "ko",
+        "name": "고속 푸리에 변환"
+      },
+      {
+        "lang": "en",
+        "name": "fast fourier transform"
+      },
+      {
+        "lang": "ja",
+        "name": "高速フーリエ変換"
+      }
     ]
   },
   {
     "key": "deque",
     "displayNames": [
-      "덱",
-      "deque",
-      "両端キュー"
+      {
+        "lang": "ko",
+        "name": "덱"
+      },
+      {
+        "lang": "en",
+        "name": "deque"
+      },
+      {
+        "lang": "ja",
+        "name": "両端キュー"
+      }
     ]
   },
   {
     "key": "mcmf",
     "displayNames": [
-      "최소 비용 최대 유량",
-      "minimum cost maximum flow",
-      "最小費用最大流問題"
+      {
+        "lang": "ko",
+        "name": "최소 비용 최대 유량"
+      },
+      {
+        "lang": "en",
+        "name": "minimum cost maximum flow"
+      },
+      {
+        "lang": "ja",
+        "name": "最小費用最大流問題"
+      }
     ]
   },
   {
     "key": "line_intersection",
     "displayNames": [
-      "선분 교차 판정",
-      "line segment intersection check",
-      "直線の交点"
+      {
+        "lang": "ko",
+        "name": "선분 교차 판정"
+      },
+      {
+        "lang": "en",
+        "name": "line segment intersection check"
+      },
+      {
+        "lang": "ja",
+        "name": "直線の交点"
+      }
     ]
   },
   {
     "key": "sqrt_decomposition",
     "displayNames": [
-      "제곱근 분할법",
-      "square root decomposition",
-      "平方分割"
+      {
+        "lang": "ko",
+        "name": "제곱근 분할법"
+      },
+      {
+        "lang": "en",
+        "name": "square root decomposition"
+      },
+      {
+        "lang": "ja",
+        "name": "平方分割"
+      }
     ]
   },
   {
     "key": "heuristics",
     "displayNames": [
-      "휴리스틱",
-      "heuristics",
-      "ヒューリスティック"
+      {
+        "lang": "ko",
+        "name": "휴리스틱"
+      },
+      {
+        "lang": "en",
+        "name": "heuristics"
+      },
+      {
+        "lang": "ja",
+        "name": "ヒューリスティック"
+      }
     ]
   },
   {
     "key": "calculus",
     "displayNames": [
-      "미적분학",
-      "calculus",
-      "微積分"
+      {
+        "lang": "ko",
+        "name": "미적분학"
+      },
+      {
+        "lang": "en",
+        "name": "calculus"
+      },
+      {
+        "lang": "ja",
+        "name": "微積分"
+      }
     ]
   },
   {
     "key": "cht",
     "displayNames": [
-      "볼록 껍질을 이용한 최적화",
-      "convex hull trick",
-      "convex hull trick"
+      {
+        "lang": "ko",
+        "name": "볼록 껍질을 이용한 최적화"
+      },
+      {
+        "lang": "en",
+        "name": "convex hull trick"
+      },
+      {
+        "lang": "ja",
+        "name": "convex hull trick"
+      }
     ]
   },
   {
     "key": "suffix_array",
     "displayNames": [
-      "접미사 배열과 LCP 배열",
-      "suffix array and lcp array",
-      "接尾辞配列・LCP配列"
+      {
+        "lang": "ko",
+        "name": "접미사 배열과 LCP 배열"
+      },
+      {
+        "lang": "en",
+        "name": "suffix array and lcp array"
+      },
+      {
+        "lang": "ja",
+        "name": "接尾辞配列・LCP配列"
+      }
     ]
   },
   {
     "key": "geometry_3d",
     "displayNames": [
-      "3차원 기하학",
-      "geometry; 3d",
-      "3次元幾何学"
+      {
+        "lang": "ko",
+        "name": "3차원 기하학"
+      },
+      {
+        "lang": "en",
+        "name": "geometry; 3d"
+      },
+      {
+        "lang": "ja",
+        "name": "3次元幾何学"
+      }
     ]
   },
   {
     "key": "centroid",
     "displayNames": [
-      "centroid",
-      "센트로이드",
-      "centroid"
+      {
+        "lang": "en",
+        "name": "centroid"
+      },
+      {
+        "lang": "ko",
+        "name": "센트로이드"
+      },
+      {
+        "lang": "ja",
+        "name": "centroid"
+      }
     ]
   },
   {
     "key": "euler_tour_technique",
     "displayNames": [
-      "오일러 경로 테크닉",
-      "euler tour technique",
-      "オイラーツアー"
+      {
+        "lang": "ko",
+        "name": "오일러 경로 테크닉"
+      },
+      {
+        "lang": "en",
+        "name": "euler tour technique"
+      },
+      {
+        "lang": "ja",
+        "name": "オイラーツアー"
+      }
     ]
   },
   {
     "key": "sprague_grundy",
     "displayNames": [
-      "스프라그–그런디 정리",
-      "sprague–grundy theorem",
-      "sprague–grundy theorem"
+      {
+        "lang": "ko",
+        "name": "스프라그–그런디 정리"
+      },
+      {
+        "lang": "en",
+        "name": "sprague–grundy theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "sprague–grundy theorem"
+      }
     ]
   },
   {
     "key": "sliding_window",
     "displayNames": [
-      "슬라이딩 윈도우",
-      "sliding window",
-      "スライディングウィンドウ"
+      {
+        "lang": "ko",
+        "name": "슬라이딩 윈도우"
+      },
+      {
+        "lang": "en",
+        "name": "sliding window"
+      },
+      {
+        "lang": "ja",
+        "name": "スライディングウィンドウ"
+      }
     ]
   },
   {
     "key": "modular_multiplicative_inverse",
     "displayNames": [
-      "모듈로 곱셈 역원",
-      "modular multiplicative inverse",
-      "モジュラ逆数"
+      {
+        "lang": "ko",
+        "name": "모듈로 곱셈 역원"
+      },
+      {
+        "lang": "en",
+        "name": "modular multiplicative inverse"
+      },
+      {
+        "lang": "ja",
+        "name": "モジュラ逆数"
+      }
     ]
   },
   {
     "key": "ternary_search",
     "displayNames": [
-      "삼분 탐색",
-      "ternary search",
-      "三分探索"
+      {
+        "lang": "ko",
+        "name": "삼분 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "ternary search"
+      },
+      {
+        "lang": "ja",
+        "name": "三分探索"
+      }
     ]
   },
   {
     "key": "mitm",
     "displayNames": [
-      "중간에서 만나기",
-      "meet in the middle",
-      "半分全列挙"
+      {
+        "lang": "ko",
+        "name": "중간에서 만나기"
+      },
+      {
+        "lang": "en",
+        "name": "meet in the middle"
+      },
+      {
+        "lang": "ja",
+        "name": "半分全列挙"
+      }
     ]
   },
   {
     "key": "pythagoras",
     "displayNames": [
-      "피타고라스 정리",
-      "pythagoras theorem",
-      "ピタゴラスの定理"
+      {
+        "lang": "ko",
+        "name": "피타고라스 정리"
+      },
+      {
+        "lang": "en",
+        "name": "pythagoras theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "ピタゴラスの定理"
+      }
     ]
   },
   {
     "key": "bitset",
     "displayNames": [
-      "비트 집합",
-      "bit set",
-      "bit set"
+      {
+        "lang": "ko",
+        "name": "비트 집합"
+      },
+      {
+        "lang": "en",
+        "name": "bit set"
+      },
+      {
+        "lang": "ja",
+        "name": "bit set"
+      }
     ]
   },
   {
     "key": "permutation_cycle_decomposition",
     "displayNames": [
-      "순열 사이클 분할",
-      "permutation cycle decomposition",
-      "順列サイクル分解"
+      {
+        "lang": "ko",
+        "name": "순열 사이클 분할"
+      },
+      {
+        "lang": "en",
+        "name": "permutation cycle decomposition"
+      },
+      {
+        "lang": "ja",
+        "name": "順列サイクル分解"
+      }
     ]
   },
   {
     "key": "lis",
     "displayNames": [
-      "가장 긴 증가하는 부분 수열: O(n log n)",
-      "longest increasing sequence in o(n log n)",
-      "longest increasing sequence in o(n log n)"
+      {
+        "lang": "ko",
+        "name": "가장 긴 증가하는 부분 수열: O(n log n)"
+      },
+      {
+        "lang": "en",
+        "name": "longest increasing sequence in o(n log n)"
+      },
+      {
+        "lang": "ja",
+        "name": "longest increasing sequence in o(n log n)"
+      }
     ]
   },
   {
     "key": "kmp",
     "displayNames": [
-      "KMP",
-      "knuth–morris–pratt",
-      "クヌース–モリス–プラット法"
+      {
+        "lang": "ko",
+        "name": "KMP"
+      },
+      {
+        "lang": "en",
+        "name": "knuth–morris–pratt"
+      },
+      {
+        "lang": "ja",
+        "name": "クヌース–モリス–プラット法"
+      }
     ]
   },
   {
     "key": "gaussian_elimination",
     "displayNames": [
-      "가우스 소거법",
-      "gaussian elimination",
-      "ガウス消去法"
+      {
+        "lang": "ko",
+        "name": "가우스 소거법"
+      },
+      {
+        "lang": "en",
+        "name": "gaussian elimination"
+      },
+      {
+        "lang": "ja",
+        "name": "ガウス消去法"
+      }
     ]
   },
   {
     "key": "hld",
     "displayNames": [
-      "Heavy-light 분할",
-      "heavy-light decomposition",
-      "heavy-light decomposition"
+      {
+        "lang": "ko",
+        "name": "Heavy-light 분할"
+      },
+      {
+        "lang": "en",
+        "name": "heavy-light decomposition"
+      },
+      {
+        "lang": "ja",
+        "name": "heavy-light decomposition"
+      }
     ]
   },
   {
     "key": "centroid_decomposition",
     "displayNames": [
-      "센트로이드 분할",
-      "centroid decomposition",
-      "centroid decomposition"
+      {
+        "lang": "ko",
+        "name": "센트로이드 분할"
+      },
+      {
+        "lang": "en",
+        "name": "centroid decomposition"
+      },
+      {
+        "lang": "ja",
+        "name": "centroid decomposition"
+      }
     ]
   },
   {
     "key": "mfmc",
     "displayNames": [
-      "최대 유량 최소 컷 정리",
-      "max-flow min-cut theorem",
-      "最大フロー最小カット定理"
+      {
+        "lang": "ko",
+        "name": "최대 유량 최소 컷 정리"
+      },
+      {
+        "lang": "en",
+        "name": "max-flow min-cut theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "最大フロー最小カット定理"
+      }
     ]
   },
   {
     "key": "polygon_area",
     "displayNames": [
-      "다각형의 넓이",
-      "area of a polygon",
-      "多角形の面積"
+      {
+        "lang": "ko",
+        "name": "다각형의 넓이"
+      },
+      {
+        "lang": "en",
+        "name": "area of a polygon"
+      },
+      {
+        "lang": "ja",
+        "name": "多角形の面積"
+      }
     ]
   },
   {
     "key": "queue",
     "displayNames": [
-      "큐",
-      "queue",
-      "キュー"
+      {
+        "lang": "ko",
+        "name": "큐"
+      },
+      {
+        "lang": "en",
+        "name": "queue"
+      },
+      {
+        "lang": "ja",
+        "name": "キュー"
+      }
     ]
   },
   {
     "key": "physics",
     "displayNames": [
-      "물리학",
-      "physics",
-      "物理"
+      {
+        "lang": "ko",
+        "name": "물리학"
+      },
+      {
+        "lang": "en",
+        "name": "physics"
+      },
+      {
+        "lang": "ja",
+        "name": "物理"
+      }
     ]
   },
   {
     "key": "2_sat",
     "displayNames": [
-      "2-sat",
-      "2-sat",
-      "2-sat"
+      {
+        "lang": "ko",
+        "name": "2-sat"
+      },
+      {
+        "lang": "en",
+        "name": "2-sat"
+      },
+      {
+        "lang": "ja",
+        "name": "2-sat"
+      }
     ]
   },
   {
     "key": "articulation",
     "displayNames": [
-      "단절점과 단절선",
-      "articulation points and bridges",
-      "関節点と橋"
+      {
+        "lang": "ko",
+        "name": "단절점과 단절선"
+      },
+      {
+        "lang": "en",
+        "name": "articulation points and bridges"
+      },
+      {
+        "lang": "ja",
+        "name": "関節点と橋"
+      }
     ]
   },
   {
     "key": "eulerian_path",
     "displayNames": [
-      "오일러 경로",
-      "eulerian path / circuit",
-      "eulerian path / circuit"
+      {
+        "lang": "ko",
+        "name": "오일러 경로"
+      },
+      {
+        "lang": "en",
+        "name": "eulerian path / circuit"
+      },
+      {
+        "lang": "ja",
+        "name": "eulerian path / circuit"
+      }
     ]
   },
   {
     "key": "flt",
     "displayNames": [
-      "페르마의 소정리",
-      "fermat's little theorem",
-      "フェルマーの小定理"
+      {
+        "lang": "ko",
+        "name": "페르마의 소정리"
+      },
+      {
+        "lang": "en",
+        "name": "fermat's little theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "フェルマーの小定理"
+      }
     ]
   },
   {
     "key": "tsp",
     "displayNames": [
-      "외판원 순회 문제",
-      "travelling salesman problem",
-      "巡回セールスマン問題"
+      {
+        "lang": "ko",
+        "name": "외판원 순회 문제"
+      },
+      {
+        "lang": "en",
+        "name": "travelling salesman problem"
+      },
+      {
+        "lang": "ja",
+        "name": "巡回セールスマン問題"
+      }
     ]
   },
   {
     "key": "linearity_of_expectation",
     "displayNames": [
-      "기댓값의 선형성",
-      "linearity of expectation",
-      "期待値の線形性"
+      {
+        "lang": "ko",
+        "name": "기댓값의 선형성"
+      },
+      {
+        "lang": "en",
+        "name": "linearity of expectation"
+      },
+      {
+        "lang": "ja",
+        "name": "期待値の線形性"
+      }
     ]
   },
   {
     "key": "0_1_bfs",
     "displayNames": [
-      "0-1 너비 우선 탐색",
-      "0-1 bfs",
-      "0-1 bfs"
+      {
+        "lang": "ko",
+        "name": "0-1 너비 우선 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "0-1 bfs"
+      },
+      {
+        "lang": "ja",
+        "name": "0-1 bfs"
+      }
     ]
   },
   {
     "key": "pst",
     "displayNames": [
-      "퍼시스턴트 세그먼트 트리",
-      "persistent segment tree",
-      "永続セグメント木"
+      {
+        "lang": "ko",
+        "name": "퍼시스턴트 세그먼트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "persistent segment tree"
+      },
+      {
+        "lang": "ja",
+        "name": "永続セグメント木"
+      }
     ]
   },
   {
     "key": "biconnected_component",
     "displayNames": [
-      "이중 연결 요소",
-      "biconnected component",
-      "二重接続コンポーネント"
+      {
+        "lang": "ko",
+        "name": "이중 연결 요소"
+      },
+      {
+        "lang": "en",
+        "name": "biconnected component"
+      },
+      {
+        "lang": "ja",
+        "name": "二重接続コンポーネント"
+      }
     ]
   },
   {
     "key": "bipartite_graph",
     "displayNames": [
-      "이분 그래프",
-      "bipartite graph",
-      "2部グラフ"
+      {
+        "lang": "ko",
+        "name": "이분 그래프"
+      },
+      {
+        "lang": "en",
+        "name": "bipartite graph"
+      },
+      {
+        "lang": "ja",
+        "name": "2部グラフ"
+      }
     ]
   },
   {
     "key": "crt",
     "displayNames": [
-      "중국인의 나머지 정리",
-      "chinese remainder theorem",
-      "中国の剰余定理"
+      {
+        "lang": "ko",
+        "name": "중국인의 나머지 정리"
+      },
+      {
+        "lang": "en",
+        "name": "chinese remainder theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "中国の剰余定理"
+      }
     ]
   },
   {
     "key": "cactus",
     "displayNames": [
-      "선인장",
-      "cactus",
-      "サボテングラフ"
+      {
+        "lang": "ko",
+        "name": "선인장"
+      },
+      {
+        "lang": "en",
+        "name": "cactus"
+      },
+      {
+        "lang": "ja",
+        "name": "サボテングラフ"
+      }
     ]
   },
   {
     "key": "pigeonhole_principle",
     "displayNames": [
-      "비둘기집 원리",
-      "pigeonhole principle",
-      "鳩の巣原理"
+      {
+        "lang": "ko",
+        "name": "비둘기집 원리"
+      },
+      {
+        "lang": "en",
+        "name": "pigeonhole principle"
+      },
+      {
+        "lang": "ja",
+        "name": "鳩の巣原理"
+      }
     ]
   },
   {
     "key": "bellman_ford",
     "displayNames": [
-      "벨만–포드",
-      "bellman–ford",
-      "ベルマンフォード法"
+      {
+        "lang": "ko",
+        "name": "벨만–포드"
+      },
+      {
+        "lang": "en",
+        "name": "bellman–ford"
+      },
+      {
+        "lang": "ja",
+        "name": "ベルマンフォード法"
+      }
     ]
   },
   {
     "key": "planar_graph",
     "displayNames": [
-      "평면 그래프",
-      "planar graph",
-      "平面グラフ"
+      {
+        "lang": "ko",
+        "name": "평면 그래프"
+      },
+      {
+        "lang": "en",
+        "name": "planar graph"
+      },
+      {
+        "lang": "ja",
+        "name": "平面グラフ"
+      }
     ]
   },
   {
     "key": "euler_phi",
     "displayNames": [
-      "오일러 피 함수",
-      "euler totient function",
-      "euler totient function"
+      {
+        "lang": "ko",
+        "name": "오일러 피 함수"
+      },
+      {
+        "lang": "en",
+        "name": "euler totient function"
+      },
+      {
+        "lang": "ja",
+        "name": "euler totient function"
+      }
     ]
   },
   {
     "key": "splay_tree",
     "displayNames": [
-      "스플레이 트리",
-      "splay tree",
-      "splay tree"
+      {
+        "lang": "ko",
+        "name": "스플레이 트리"
+      },
+      {
+        "lang": "en",
+        "name": "splay tree"
+      },
+      {
+        "lang": "ja",
+        "name": "splay tree"
+      }
     ]
   },
   {
     "key": "pbs",
     "displayNames": [
-      "병렬 이분 탐색",
-      "parallel binary search",
-      "parallel binary search"
+      {
+        "lang": "ko",
+        "name": "병렬 이분 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "parallel binary search"
+      },
+      {
+        "lang": "ja",
+        "name": "parallel binary search"
+      }
     ]
   },
   {
     "key": "linked_list",
     "displayNames": [
-      "연결 리스트",
-      "linked list",
-      "連結リスト"
+      {
+        "lang": "ko",
+        "name": "연결 리스트"
+      },
+      {
+        "lang": "en",
+        "name": "linked list"
+      },
+      {
+        "lang": "ja",
+        "name": "連結リスト"
+      }
     ]
   },
   {
     "key": "point_in_convex_polygon",
     "displayNames": [
-      "볼록 다각형 내부의 점 판정",
-      "point in convex polygon check",
-      "凸多角形の点包含判定"
+      {
+        "lang": "ko",
+        "name": "볼록 다각형 내부의 점 판정"
+      },
+      {
+        "lang": "en",
+        "name": "point in convex polygon check"
+      },
+      {
+        "lang": "ja",
+        "name": "凸多角形の点包含判定"
+      }
     ]
   },
   {
     "key": "mo",
     "displayNames": [
-      "mo's",
-      "mo's",
-      "mo's"
+      {
+        "lang": "ko",
+        "name": "mo's"
+      },
+      {
+        "lang": "en",
+        "name": "mo's"
+      },
+      {
+        "lang": "ja",
+        "name": "mo's"
+      }
     ]
   },
   {
     "key": "extended_euclidean",
     "displayNames": [
-      "확장 유클리드 호제법",
-      "extended euclidean algorithm",
-      "拡張ユークリッドの互除法"
+      {
+        "lang": "ko",
+        "name": "확장 유클리드 호제법"
+      },
+      {
+        "lang": "en",
+        "name": "extended euclidean algorithm"
+      },
+      {
+        "lang": "ja",
+        "name": "拡張ユークリッドの互除法"
+      }
     ]
   },
   {
     "key": "deque_trick",
     "displayNames": [
-      "덱을 이용한 구간 최댓값 트릭",
-      "deque range maximum trick",
-      "deque range maximum trick"
+      {
+        "lang": "ko",
+        "name": "덱을 이용한 구간 최댓값 트릭"
+      },
+      {
+        "lang": "en",
+        "name": "deque range maximum trick"
+      },
+      {
+        "lang": "ja",
+        "name": "deque range maximum trick"
+      }
     ]
   },
   {
     "key": "divide_and_conquer_optimization",
     "displayNames": [
-      "분할 정복을 사용한 최적화",
-      "divide and conquer optimization",
-      "divide and conquer optimization"
+      {
+        "lang": "ko",
+        "name": "분할 정복을 사용한 최적화"
+      },
+      {
+        "lang": "en",
+        "name": "divide and conquer optimization"
+      },
+      {
+        "lang": "ja",
+        "name": "divide and conquer optimization"
+      }
     ]
   },
   {
     "key": "multi_segtree",
     "displayNames": [
-      "다차원 세그먼트 트리",
-      "multidimensional segment tree",
-      "multidimensional segment tree"
+      {
+        "lang": "ko",
+        "name": "다차원 세그먼트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "multidimensional segment tree"
+      },
+      {
+        "lang": "ja",
+        "name": "multidimensional segment tree"
+      }
     ]
   },
   {
     "key": "rotating_calipers",
     "displayNames": [
-      "회전하는 캘리퍼스",
-      "rotating calipers",
-      "rotating calipers"
+      {
+        "lang": "ko",
+        "name": "회전하는 캘리퍼스"
+      },
+      {
+        "lang": "en",
+        "name": "rotating calipers"
+      },
+      {
+        "lang": "ja",
+        "name": "rotating calipers"
+      }
     ]
   },
   {
     "key": "euler_characteristic",
     "displayNames": [
-      "오일러 지표 (χ=V-E+F)",
-      "euler characteristic (χ=v-e+f)",
-      "オイラー特性（χ=v-e+f）"
+      {
+        "lang": "ko",
+        "name": "오일러 지표 (χ=V-E+F)"
+      },
+      {
+        "lang": "en",
+        "name": "euler characteristic (χ=v-e+f)"
+      },
+      {
+        "lang": "ja",
+        "name": "オイラー特性（χ=v-e+f）"
+      }
     ]
   },
   {
     "key": "dp_deque",
     "displayNames": [
-      "덱을 이용한 다이나믹 프로그래밍",
-      "dynamic programming using a deque",
-      "両端キューを使用した動的計画法"
+      {
+        "lang": "ko",
+        "name": "덱을 이용한 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "dynamic programming using a deque"
+      },
+      {
+        "lang": "ja",
+        "name": "両端キューを使用した動的計画法"
+      }
     ]
   },
   {
     "key": "aho_corasick",
     "displayNames": [
-      "아호-코라식",
-      "aho-corasick",
-      "アホコラシック"
+      {
+        "lang": "ko",
+        "name": "아호-코라식"
+      },
+      {
+        "lang": "en",
+        "name": "aho-corasick"
+      },
+      {
+        "lang": "ja",
+        "name": "アホコラシック"
+      }
     ]
   },
   {
     "key": "half_plane_intersection",
     "displayNames": [
-      "반평면 교집합",
-      "half plane intersection",
-      "half plane intersection"
+      {
+        "lang": "ko",
+        "name": "반평면 교집합"
+      },
+      {
+        "lang": "en",
+        "name": "half plane intersection"
+      },
+      {
+        "lang": "ja",
+        "name": "half plane intersection"
+      }
     ]
   },
   {
     "key": "regex",
     "displayNames": [
-      "정규 표현식",
-      "regular expression",
-      "正規表現"
+      {
+        "lang": "ko",
+        "name": "정규 표현식"
+      },
+      {
+        "lang": "en",
+        "name": "regular expression"
+      },
+      {
+        "lang": "ja",
+        "name": "正規表現"
+      }
     ]
   },
   {
     "key": "slope_trick",
     "displayNames": [
-      "함수 개형을 이용한 최적화",
-      "slope trick",
-      "slope trick"
+      {
+        "lang": "ko",
+        "name": "함수 개형을 이용한 최적화"
+      },
+      {
+        "lang": "en",
+        "name": "slope trick"
+      },
+      {
+        "lang": "ja",
+        "name": "slope trick"
+      }
     ]
   },
   {
     "key": "berlekamp_massey",
     "displayNames": [
-      "벌리캠프–매시",
-      "berlekamp–massey",
-      "berlekamp–massey"
+      {
+        "lang": "ko",
+        "name": "벌리캠프–매시"
+      },
+      {
+        "lang": "en",
+        "name": "berlekamp–massey"
+      },
+      {
+        "lang": "ja",
+        "name": "berlekamp–massey"
+      }
     ]
   },
   {
     "key": "manacher",
     "displayNames": [
-      "매내처",
-      "manacher's",
-      "manacher's"
+      {
+        "lang": "ko",
+        "name": "매내처"
+      },
+      {
+        "lang": "en",
+        "name": "manacher's"
+      },
+      {
+        "lang": "ja",
+        "name": "manacher's"
+      }
     ]
   },
   {
     "key": "merge_sort_tree",
     "displayNames": [
-      "머지 소트 트리",
-      "merge sort tree",
-      "マージソート木"
+      {
+        "lang": "ko",
+        "name": "머지 소트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "merge sort tree"
+      },
+      {
+        "lang": "ja",
+        "name": "マージソート木"
+      }
     ]
   },
   {
     "key": "pollard_rho",
     "displayNames": [
-      "폴라드 로",
-      "pollard rho",
-      "ポラード・ロー素因数分解法"
+      {
+        "lang": "ko",
+        "name": "폴라드 로"
+      },
+      {
+        "lang": "en",
+        "name": "pollard rho"
+      },
+      {
+        "lang": "ja",
+        "name": "ポラード・ロー素因数分解法"
+      }
     ]
   },
   {
     "key": "link_cut_tree",
     "displayNames": [
-      "링크/컷 트리",
-      "link/cut tree",
-      "link/cut tree"
+      {
+        "lang": "ko",
+        "name": "링크/컷 트리"
+      },
+      {
+        "lang": "en",
+        "name": "link/cut tree"
+      },
+      {
+        "lang": "ja",
+        "name": "link/cut tree"
+      }
     ]
   },
   {
     "key": "dp_connection_profile",
     "displayNames": [
-      "커넥션 프로파일을 이용한 다이나믹 프로그래밍",
-      "dynamic programming using connection profile",
-      "dynamic programming using connection profile"
+      {
+        "lang": "ko",
+        "name": "커넥션 프로파일을 이용한 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "dynamic programming using connection profile"
+      },
+      {
+        "lang": "ja",
+        "name": "dynamic programming using connection profile"
+      }
     ]
   },
   {
     "key": "miller_rabin",
     "displayNames": [
-      "밀러–라빈 소수 판별법",
-      "miller–rabin",
-      "ミラー–ラビン素数判定法"
+      {
+        "lang": "ko",
+        "name": "밀러–라빈 소수 판별법"
+      },
+      {
+        "lang": "en",
+        "name": "miller–rabin"
+      },
+      {
+        "lang": "ja",
+        "name": "ミラー–ラビン素数判定法"
+      }
     ]
   },
   {
     "key": "tree_isomorphism",
     "displayNames": [
-      "트리 동형 사상",
-      "tree isomorphism",
-      "木の同型性判定"
+      {
+        "lang": "ko",
+        "name": "트리 동형 사상"
+      },
+      {
+        "lang": "en",
+        "name": "tree isomorphism"
+      },
+      {
+        "lang": "ja",
+        "name": "木の同型性判定"
+      }
     ]
   },
   {
     "key": "simulated_annealing",
     "displayNames": [
-      "담금질 기법",
-      "simulated annealing",
-      "焼き鈍し法"
+      {
+        "lang": "ko",
+        "name": "담금질 기법"
+      },
+      {
+        "lang": "en",
+        "name": "simulated annealing"
+      },
+      {
+        "lang": "ja",
+        "name": "焼き鈍し法"
+      }
     ]
   },
   {
     "key": "hungarian",
     "displayNames": [
-      "헝가리안",
-      "hungarian",
-      "hungarian"
+      {
+        "lang": "ko",
+        "name": "헝가리안"
+      },
+      {
+        "lang": "en",
+        "name": "hungarian"
+      },
+      {
+        "lang": "ja",
+        "name": "hungarian"
+      }
     ]
   },
   {
     "key": "mobius_inversion",
     "displayNames": [
-      "뫼비우스 반전 공식",
-      "möbius inversion",
-      "メビウスの反転公式"
+      {
+        "lang": "ko",
+        "name": "뫼비우스 반전 공식"
+      },
+      {
+        "lang": "en",
+        "name": "möbius inversion"
+      },
+      {
+        "lang": "ja",
+        "name": "メビウスの反転公式"
+      }
     ]
   },
   {
     "key": "hall",
     "displayNames": [
-      "홀의 결혼 정리",
-      "hall's theorem",
-      "ホールの定理"
+      {
+        "lang": "ko",
+        "name": "홀의 결혼 정리"
+      },
+      {
+        "lang": "en",
+        "name": "hall's theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "ホールの定理"
+      }
     ]
   },
   {
     "key": "rabin_karp",
     "displayNames": [
-      "라빈–카프",
-      "rabin–karp",
-      "ラビン-カープ文字列検索"
+      {
+        "lang": "ko",
+        "name": "라빈–카프"
+      },
+      {
+        "lang": "en",
+        "name": "rabin–karp"
+      },
+      {
+        "lang": "ja",
+        "name": "ラビン-カープ文字列検索"
+      }
     ]
   },
   {
     "key": "flood_fill",
     "displayNames": [
-      "플러드 필",
-      "flood-fill",
-      "flood-fill"
+      {
+        "lang": "ko",
+        "name": "플러드 필"
+      },
+      {
+        "lang": "en",
+        "name": "flood-fill"
+      },
+      {
+        "lang": "ja",
+        "name": "flood-fill"
+      }
     ]
   },
   {
     "key": "linear_programming",
     "displayNames": [
-      "선형 계획법",
-      "linear programming",
-      "線型計画法"
+      {
+        "lang": "ko",
+        "name": "선형 계획법"
+      },
+      {
+        "lang": "en",
+        "name": "linear programming"
+      },
+      {
+        "lang": "ja",
+        "name": "線型計画法"
+      }
     ]
   },
   {
     "key": "statistics",
     "displayNames": [
-      "통계학",
-      "statistics",
-      "統計学"
+      {
+        "lang": "ko",
+        "name": "통계학"
+      },
+      {
+        "lang": "en",
+        "name": "statistics"
+      },
+      {
+        "lang": "ja",
+        "name": "統計学"
+      }
     ]
   },
   {
     "key": "offline_dynamic_connectivity",
     "displayNames": [
-      "오프라인 동적 연결성 판정",
-      "offline dynamic connectivity",
-      "offline dynamic connectivity"
+      {
+        "lang": "ko",
+        "name": "오프라인 동적 연결성 판정"
+      },
+      {
+        "lang": "en",
+        "name": "offline dynamic connectivity"
+      },
+      {
+        "lang": "ja",
+        "name": "offline dynamic connectivity"
+      }
     ]
   },
   {
     "key": "alien",
     "displayNames": [
-      "Aliens 트릭",
-      "aliens trick",
-      "aliens法"
+      {
+        "lang": "ko",
+        "name": "Aliens 트릭"
+      },
+      {
+        "lang": "en",
+        "name": "aliens trick"
+      },
+      {
+        "lang": "ja",
+        "name": "aliens法"
+      }
     ]
   },
   {
     "key": "circulation",
     "displayNames": [
-      "서큘레이션",
-      "circulation",
-      "circulation"
+      {
+        "lang": "ko",
+        "name": "서큘레이션"
+      },
+      {
+        "lang": "en",
+        "name": "circulation"
+      },
+      {
+        "lang": "ja",
+        "name": "circulation"
+      }
     ]
   },
   {
     "key": "numerical_analysis",
     "displayNames": [
-      "수치해석",
-      "numerical analysis",
-      "数値解析"
+      {
+        "lang": "ko",
+        "name": "수치해석"
+      },
+      {
+        "lang": "en",
+        "name": "numerical analysis"
+      },
+      {
+        "lang": "ja",
+        "name": "数値解析"
+      }
     ]
   },
   {
     "key": "dp_sum_over_subsets",
     "displayNames": [
-      "부분집합의 합 다이나믹 프로그래밍",
-      "sum over subsets dynamic programming",
-      "sum over subsets dynamic programming"
+      {
+        "lang": "ko",
+        "name": "부분집합의 합 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "sum over subsets dynamic programming"
+      },
+      {
+        "lang": "ja",
+        "name": "sum over subsets dynamic programming"
+      }
     ]
   },
   {
     "key": "point_in_non_convex_polygon",
     "displayNames": [
-      "오목 다각형 내부의 점 판정",
-      "point in non-convex polygon check",
-      "非凸多角形の点包含判定"
+      {
+        "lang": "ko",
+        "name": "오목 다각형 내부의 점 판정"
+      },
+      {
+        "lang": "en",
+        "name": "point in non-convex polygon check"
+      },
+      {
+        "lang": "ja",
+        "name": "非凸多角形の点包含判定"
+      }
     ]
   },
   {
     "key": "duality",
     "displayNames": [
-      "쌍대성",
-      "duality",
-      "双対性"
+      {
+        "lang": "ko",
+        "name": "쌍대성"
+      },
+      {
+        "lang": "en",
+        "name": "duality"
+      },
+      {
+        "lang": "ja",
+        "name": "双対性"
+      }
     ]
   },
   {
     "key": "tree_compression",
     "displayNames": [
-      "트리 압축",
-      "tree compression",
-      "tree compression"
+      {
+        "lang": "ko",
+        "name": "트리 압축"
+      },
+      {
+        "lang": "en",
+        "name": "tree compression"
+      },
+      {
+        "lang": "ja",
+        "name": "tree compression"
+      }
     ]
   },
   {
     "key": "lucas",
     "displayNames": [
-      "뤼카 정리",
-      "lucas theorem",
-      "lucas theorem"
+      {
+        "lang": "ko",
+        "name": "뤼카 정리"
+      },
+      {
+        "lang": "en",
+        "name": "lucas theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "lucas theorem"
+      }
     ]
   },
   {
     "key": "matroid",
     "displayNames": [
-      "매트로이드",
-      "matroid",
-      "マトロイド"
+      {
+        "lang": "ko",
+        "name": "매트로이드"
+      },
+      {
+        "lang": "en",
+        "name": "matroid"
+      },
+      {
+        "lang": "ja",
+        "name": "マトロイド"
+      }
     ]
   },
   {
     "key": "voronoi",
     "displayNames": [
-      "보로노이 다이어그램",
-      "voronoi diagram",
-      "ボロノイ図"
+      {
+        "lang": "ko",
+        "name": "보로노이 다이어그램"
+      },
+      {
+        "lang": "en",
+        "name": "voronoi diagram"
+      },
+      {
+        "lang": "ja",
+        "name": "ボロノイ図"
+      }
     ]
   },
   {
     "key": "dual_graph",
     "displayNames": [
-      "쌍대 그래프",
-      "dual graph",
-      "双対グラフ"
+      {
+        "lang": "ko",
+        "name": "쌍대 그래프"
+      },
+      {
+        "lang": "en",
+        "name": "dual graph"
+      },
+      {
+        "lang": "ja",
+        "name": "双対グラフ"
+      }
     ]
   },
   {
     "key": "kitamasa",
     "displayNames": [
-      "키타마사",
-      "kitamasa",
-      "きたまさ法"
+      {
+        "lang": "ko",
+        "name": "키타마사"
+      },
+      {
+        "lang": "en",
+        "name": "kitamasa"
+      },
+      {
+        "lang": "ja",
+        "name": "きたまさ法"
+      }
     ]
   },
   {
     "key": "functional_graph",
     "displayNames": [
-      "함수형 그래프",
-      "functional graph",
-      "functional graph"
+      {
+        "lang": "ko",
+        "name": "함수형 그래프"
+      },
+      {
+        "lang": "en",
+        "name": "functional graph"
+      },
+      {
+        "lang": "ja",
+        "name": "functional graph"
+      }
     ]
   },
   {
     "key": "generating_function",
     "displayNames": [
-      "생성 함수",
-      "generating function",
-      "生成関数"
+      {
+        "lang": "ko",
+        "name": "생성 함수"
+      },
+      {
+        "lang": "en",
+        "name": "generating function"
+      },
+      {
+        "lang": "ja",
+        "name": "生成関数"
+      }
     ]
   },
   {
     "key": "general_matching",
     "displayNames": [
-      "일반적인 매칭",
-      "general matching",
-      "一般的なマッチング"
+      {
+        "lang": "ko",
+        "name": "일반적인 매칭"
+      },
+      {
+        "lang": "en",
+        "name": "general matching"
+      },
+      {
+        "lang": "ja",
+        "name": "一般的なマッチング"
+      }
     ]
   },
   {
     "key": "tree_decomposition",
     "displayNames": [
-      "트리 분할",
-      "tree decomposition",
-      "tree decomposition"
+      {
+        "lang": "ko",
+        "name": "트리 분할"
+      },
+      {
+        "lang": "en",
+        "name": "tree decomposition"
+      },
+      {
+        "lang": "ja",
+        "name": "tree decomposition"
+      }
     ]
   },
   {
     "key": "cartesian_tree",
     "displayNames": [
-      "데카르트 트리",
-      "cartesian tree",
-      "デカルト木"
+      {
+        "lang": "ko",
+        "name": "데카르트 트리"
+      },
+      {
+        "lang": "en",
+        "name": "cartesian tree"
+      },
+      {
+        "lang": "ja",
+        "name": "デカルト木"
+      }
     ]
   },
   {
     "key": "min_enclosing_circle",
     "displayNames": [
-      "최소 외접원",
-      "minimum enclosing circle",
-      "最小外接円"
+      {
+        "lang": "ko",
+        "name": "최소 외접원"
+      },
+      {
+        "lang": "en",
+        "name": "minimum enclosing circle"
+      },
+      {
+        "lang": "ja",
+        "name": "最小外接円"
+      }
     ]
   },
   {
     "key": "burnside",
     "displayNames": [
-      "번사이드 보조정리",
-      "burnside's lemma",
-      "バーンサイドの補題"
+      {
+        "lang": "ko",
+        "name": "번사이드 보조정리"
+      },
+      {
+        "lang": "en",
+        "name": "burnside's lemma"
+      },
+      {
+        "lang": "ja",
+        "name": "バーンサイドの補題"
+      }
     ]
   },
   {
     "key": "discrete_log",
     "displayNames": [
-      "이산 로그",
-      "discrete logarithm",
-      "離散対数"
+      {
+        "lang": "ko",
+        "name": "이산 로그"
+      },
+      {
+        "lang": "en",
+        "name": "discrete logarithm"
+      },
+      {
+        "lang": "ja",
+        "name": "離散対数"
+      }
     ]
   },
   {
     "key": "bidirectional_search",
     "displayNames": [
-      "양방향 탐색",
-      "bidirectional search",
-      "bidirectional search"
+      {
+        "lang": "ko",
+        "name": "양방향 탐색"
+      },
+      {
+        "lang": "en",
+        "name": "bidirectional search"
+      },
+      {
+        "lang": "ja",
+        "name": "bidirectional search"
+      }
     ]
   },
   {
     "key": "z",
     "displayNames": [
-      "z",
-      "z",
-      "z"
+      {
+        "lang": "ko",
+        "name": "z"
+      },
+      {
+        "lang": "en",
+        "name": "z"
+      },
+      {
+        "lang": "ja",
+        "name": "z"
+      }
     ]
   },
   {
     "key": "utf8",
     "displayNames": [
-      "utf-8 입력 처리",
-      "utf-8 inputs",
-      "utf-8入力の処理"
+      {
+        "lang": "ko",
+        "name": "utf-8 입력 처리"
+      },
+      {
+        "lang": "en",
+        "name": "utf-8 inputs"
+      },
+      {
+        "lang": "ja",
+        "name": "utf-8入力の処理"
+      }
     ]
   },
   {
     "key": "geometry_hyper",
     "displayNames": [
-      "4차원 이상의 기하학",
-      "geometry; hyperdimensional",
-      "4次元以上での幾何学"
+      {
+        "lang": "ko",
+        "name": "4차원 이상의 기하학"
+      },
+      {
+        "lang": "en",
+        "name": "geometry; hyperdimensional"
+      },
+      {
+        "lang": "ja",
+        "name": "4次元以上での幾何学"
+      }
     ]
   },
   {
     "key": "monotone_queue_optimization",
     "displayNames": [
-      "단조 큐를 이용한 최적화",
-      "monotone queue optimization",
-      "monotone queue optimization"
+      {
+        "lang": "ko",
+        "name": "단조 큐를 이용한 최적화"
+      },
+      {
+        "lang": "en",
+        "name": "monotone queue optimization"
+      },
+      {
+        "lang": "ja",
+        "name": "monotone queue optimization"
+      }
     ]
   },
   {
     "key": "pick",
     "displayNames": [
-      "픽의 정리",
-      "pick's theorem",
-      "ピックの定理"
+      {
+        "lang": "ko",
+        "name": "픽의 정리"
+      },
+      {
+        "lang": "en",
+        "name": "pick's theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "ピックの定理"
+      }
     ]
   },
   {
     "key": "knuth_x",
     "displayNames": [
-      "크누스 X",
-      "knuth's x",
-      "knuth's x"
+      {
+        "lang": "ko",
+        "name": "크누스 X"
+      },
+      {
+        "lang": "en",
+        "name": "knuth's x"
+      },
+      {
+        "lang": "ja",
+        "name": "knuth's x"
+      }
     ]
   },
   {
     "key": "dp_digit",
     "displayNames": [
-      "자릿수를 이용한 다이나믹 프로그래밍",
-      "digit dp"
+      {
+        "lang": "ko",
+        "name": "자릿수를 이용한 다이나믹 프로그래밍"
+      },
+      {
+        "lang": "en",
+        "name": "digit dp"
+      }
     ]
   },
   {
     "key": "top_tree",
     "displayNames": [
-      "탑 트리",
-      "top tree",
-      "top tree"
+      {
+        "lang": "ko",
+        "name": "탑 트리"
+      },
+      {
+        "lang": "en",
+        "name": "top tree"
+      },
+      {
+        "lang": "ja",
+        "name": "top tree"
+      }
     ]
   },
   {
     "key": "dominator_tree",
     "displayNames": [
-      "도미네이터 트리",
-      "dominator tree",
-      "dominator tree"
+      {
+        "lang": "ko",
+        "name": "도미네이터 트리"
+      },
+      {
+        "lang": "en",
+        "name": "dominator tree"
+      },
+      {
+        "lang": "ja",
+        "name": "dominator tree"
+      }
     ]
   },
   {
     "key": "palindrome_tree",
     "displayNames": [
-      "회문 트리",
-      "palindrome tree",
-      "palindrome tree"
+      {
+        "lang": "ko",
+        "name": "회문 트리"
+      },
+      {
+        "lang": "en",
+        "name": "palindrome tree"
+      },
+      {
+        "lang": "ja",
+        "name": "palindrome tree"
+      }
     ]
   },
   {
     "key": "stable_marriage",
     "displayNames": [
-      "안정 결혼 문제",
-      "stable marriage problem",
-      "stable marriage problem"
+      {
+        "lang": "ko",
+        "name": "안정 결혼 문제"
+      },
+      {
+        "lang": "en",
+        "name": "stable marriage problem"
+      },
+      {
+        "lang": "ja",
+        "name": "stable marriage problem"
+      }
     ]
   },
   {
     "key": "delaunay",
     "displayNames": [
-      "델로네 삼각분할",
-      "delaunay triangulation",
-      "ドロネー三角形分割"
+      {
+        "lang": "ko",
+        "name": "델로네 삼각분할"
+      },
+      {
+        "lang": "en",
+        "name": "delaunay triangulation"
+      },
+      {
+        "lang": "ja",
+        "name": "ドロネー三角形分割"
+      }
     ]
   },
   {
     "key": "dancing_links",
     "displayNames": [
-      "춤추는 링크",
-      "dancing links",
-      "dancing links"
+      {
+        "lang": "ko",
+        "name": "춤추는 링크"
+      },
+      {
+        "lang": "en",
+        "name": "dancing links"
+      },
+      {
+        "lang": "ja",
+        "name": "dancing links"
+      }
     ]
   },
   {
     "key": "discrete_sqrt",
     "displayNames": [
-      "이산 제곱근",
-      "discrete square root",
-      "離散平方根"
+      {
+        "lang": "ko",
+        "name": "이산 제곱근"
+      },
+      {
+        "lang": "en",
+        "name": "discrete square root"
+      },
+      {
+        "lang": "ja",
+        "name": "離散平方根"
+      }
     ]
   },
   {
     "key": "degree_sequence",
     "displayNames": [
-      "차수열",
-      "degree sequence",
-      "degree sequence"
+      {
+        "lang": "ko",
+        "name": "차수열"
+      },
+      {
+        "lang": "en",
+        "name": "degree sequence"
+      },
+      {
+        "lang": "ja",
+        "name": "degree sequence"
+      }
     ]
   },
   {
     "key": "rope",
     "displayNames": [
-      "로프",
-      "rope",
-      "rope"
+      {
+        "lang": "ko",
+        "name": "로프"
+      },
+      {
+        "lang": "en",
+        "name": "rope"
+      },
+      {
+        "lang": "ja",
+        "name": "rope"
+      }
     ]
   },
   {
     "key": "bayes",
     "displayNames": [
-      "베이즈 정리",
-      "bayes theorem",
-      "ベイズの定理"
+      {
+        "lang": "ko",
+        "name": "베이즈 정리"
+      },
+      {
+        "lang": "en",
+        "name": "bayes theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "ベイズの定理"
+      }
     ]
   },
   {
     "key": "knuth",
     "displayNames": [
-      "크누스 최적화",
-      "knuth optimization",
-      "knuth optimization"
+      {
+        "lang": "ko",
+        "name": "크누스 최적화"
+      },
+      {
+        "lang": "en",
+        "name": "knuth optimization"
+      },
+      {
+        "lang": "ja",
+        "name": "knuth optimization"
+      }
     ]
   },
   {
     "key": "hirschberg",
     "displayNames": [
-      "히르쉬버그",
-      "hirschberg's",
-      "hirschberg's"
+      {
+        "lang": "ko",
+        "name": "히르쉬버그"
+      },
+      {
+        "lang": "en",
+        "name": "hirschberg's"
+      },
+      {
+        "lang": "ja",
+        "name": "hirschberg's"
+      }
     ]
   },
   {
     "key": "suffix_tree",
     "displayNames": [
-      "접미사 트리",
-      "suffix tree",
-      "suffix tree"
+      {
+        "lang": "ko",
+        "name": "접미사 트리"
+      },
+      {
+        "lang": "en",
+        "name": "suffix tree"
+      },
+      {
+        "lang": "ja",
+        "name": "suffix tree"
+      }
     ]
   },
   {
     "key": "chordal_graph",
     "displayNames": [
-      "chordal graph",
-      "현 그래프",
-      "弦グラフ"
+      {
+        "lang": "en",
+        "name": "chordal graph"
+      },
+      {
+        "lang": "ko",
+        "name": "현 그래프"
+      },
+      {
+        "lang": "ja",
+        "name": "弦グラフ"
+      }
     ]
   },
   {
     "key": "lgv",
     "displayNames": [
-      "린드스트롬–게셀–비엔노 보조정리",
-      "lindström–gessel–viennot lemma",
-      "lindström–gessel–viennot lemma"
+      {
+        "lang": "ko",
+        "name": "린드스트롬–게셀–비엔노 보조정리"
+      },
+      {
+        "lang": "en",
+        "name": "lindström–gessel–viennot lemma"
+      },
+      {
+        "lang": "ja",
+        "name": "lindström–gessel–viennot lemma"
+      }
     ]
   },
   {
     "key": "green",
     "displayNames": [
-      "그린 정리",
-      "green's theorem",
-      "グリーンの定理"
+      {
+        "lang": "ko",
+        "name": "그린 정리"
+      },
+      {
+        "lang": "en",
+        "name": "green's theorem"
+      },
+      {
+        "lang": "ja",
+        "name": "グリーンの定理"
+      }
     ]
   },
   {
     "key": "directed_mst",
     "displayNames": [
-      "유향 최소 신장 트리",
-      "directed minimum spanning tree",
-      "最小全域有向木"
+      {
+        "lang": "ko",
+        "name": "유향 최소 신장 트리"
+      },
+      {
+        "lang": "en",
+        "name": "directed minimum spanning tree"
+      },
+      {
+        "lang": "ja",
+        "name": "最小全域有向木"
+      }
     ]
   },
   {
     "key": "stoer_wagner",
     "displayNames": [
-      "스토어–바그너",
-      "stoer–wagner",
-      "stoer–wagner"
+      {
+        "lang": "ko",
+        "name": "스토어–바그너"
+      },
+      {
+        "lang": "en",
+        "name": "stoer–wagner"
+      },
+      {
+        "lang": "ja",
+        "name": "stoer–wagner"
+      }
     ]
   },
   {
     "key": "polynomial_interpolation",
     "displayNames": [
-      "다항식 보간법",
-      "polynomial interpolation",
-      "多項式補間"
+      {
+        "lang": "ko",
+        "name": "다항식 보간법"
+      },
+      {
+        "lang": "en",
+        "name": "polynomial interpolation"
+      },
+      {
+        "lang": "ja",
+        "name": "多項式補間"
+      }
     ]
   },
   {
     "key": "differential_cryptanalysis",
     "displayNames": [
-      "차분 공격",
-      "differential cryptanalysis",
-      "differential cryptanalysis"
+      {
+        "lang": "ko",
+        "name": "차분 공격"
+      },
+      {
+        "lang": "en",
+        "name": "differential cryptanalysis"
+      },
+      {
+        "lang": "ja",
+        "name": "differential cryptanalysis"
+      }
     ]
   },
   {
     "key": "majority_vote",
     "displayNames": [
-      "보이어–무어 다수결 투표",
-      "boyer–moore majority vote",
-      "boyer–moore majority vote"
+      {
+        "lang": "ko",
+        "name": "보이어–무어 다수결 투표"
+      },
+      {
+        "lang": "en",
+        "name": "boyer–moore majority vote"
+      },
+      {
+        "lang": "ja",
+        "name": "boyer–moore majority vote"
+      }
     ]
   },
   {
     "key": "gradient_descent",
     "displayNames": [
-      "경사 하강법",
-      "gradient descent",
-      "勾配降下法"
+      {
+        "lang": "ko",
+        "name": "경사 하강법"
+      },
+      {
+        "lang": "en",
+        "name": "gradient descent"
+      },
+      {
+        "lang": "ja",
+        "name": "勾配降下法"
+      }
     ]
   },
   {
     "key": "multipoint_evaluation",
     "displayNames": [
-      "다중 대입값 계산",
-      "multipoint evaluation",
-      "多点評価"
+      {
+        "lang": "ko",
+        "name": "다중 대입값 계산"
+      },
+      {
+        "lang": "en",
+        "name": "multipoint evaluation"
+      },
+      {
+        "lang": "ja",
+        "name": "多点評価"
+      }
     ]
   },
   {
     "key": "geometric_boolean_operations",
     "displayNames": [
-      "도형에서의 불 연산",
-      "boolean operations on geometric objects",
-      "図形のブール演算"
+      {
+        "lang": "ko",
+        "name": "도형에서의 불 연산"
+      },
+      {
+        "lang": "en",
+        "name": "boolean operations on geometric objects"
+      },
+      {
+        "lang": "ja",
+        "name": "図形のブール演算"
+      }
     ]
   },
   {
     "key": "lte",
     "displayNames": [
-      "지수승강 보조정리",
-      "lifting the exponent lemma",
-      "lifting the exponent lemma"
+      {
+        "lang": "ko",
+        "name": "지수승강 보조정리"
+      },
+      {
+        "lang": "en",
+        "name": "lifting the exponent lemma"
+      },
+      {
+        "lang": "ja",
+        "name": "lifting the exponent lemma"
+      }
     ]
   },
   {
     "key": "birthday",
     "displayNames": [
-      "생일 문제",
-      "birthday problem",
-      "birthday problem"
+      {
+        "lang": "ko",
+        "name": "생일 문제"
+      },
+      {
+        "lang": "en",
+        "name": "birthday problem"
+      },
+      {
+        "lang": "ja",
+        "name": "birthday problem"
+      }
     ]
   },
   {
     "key": "hackenbush",
     "displayNames": [
-      "하켄부시 게임",
-      "hackenbush",
-      "hackenbush"
+      {
+        "lang": "ko",
+        "name": "하켄부시 게임"
+      },
+      {
+        "lang": "en",
+        "name": "hackenbush"
+      },
+      {
+        "lang": "ja",
+        "name": "hackenbush"
+      }
     ]
   },
   {
     "key": "a_star",
     "displayNames": [
-      "a*",
-      "a*",
-      "a*"
+      {
+        "lang": "ko",
+        "name": "a*"
+      },
+      {
+        "lang": "en",
+        "name": "a*"
+      },
+      {
+        "lang": "ja",
+        "name": "a*"
+      }
     ]
   },
   {
     "key": "rb_tree",
     "displayNames": [
-      "레드-블랙 트리",
-      "red-black tree",
-      "red-black tree"
+      {
+        "lang": "ko",
+        "name": "레드-블랙 트리"
+      },
+      {
+        "lang": "en",
+        "name": "red-black tree"
+      },
+      {
+        "lang": "ja",
+        "name": "red-black tree"
+      }
     ]
   },
   {
     "key": "discrete_kth_root",
     "displayNames": [
-      "이산 k제곱근",
-      "discrete k-th root",
-      "離散k平方根"
+      {
+        "lang": "ko",
+        "name": "이산 k제곱근"
+      },
+      {
+        "lang": "en",
+        "name": "discrete k-th root"
+      },
+      {
+        "lang": "ja",
+        "name": "離散k平方根"
+      }
     ]
   }
 ]
