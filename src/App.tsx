@@ -35,7 +35,7 @@ export function App() {
       <header class="header">
         <span>tagged-ex.ac/t</span>
       </header>
-      <Show when={tags()} fallback={<div>불러오는 중... </div>}>
+      <Show when={tags()} fallback={<div class="loading">불러오는 중... </div>}>
         {(tags) => (
           <Challenge
             onInput={(tag) => {

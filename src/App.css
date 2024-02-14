@@ -6,6 +6,10 @@
   justify-items: stretch;
 }
 
+.loading {
+  text-align: center;
+}
+
 .header {
   display: flex;
   flex-direction: column;
