@@ -21,7 +21,7 @@ export function Challenge({ onInput, disabled }: ChallengeProps) {
           onInput={(e) => {
             setTag(e.target.value);
           }}
-          onKeyDown={(e) => {
+          onKeyPress={(e) => {
             if (e.key === "Enter") submitButton.click();
           }}
           value={tag()}
