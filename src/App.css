@@ -61,8 +61,12 @@
   border: none;
   display: inline-block;
   height: 100%;
-  box-sizing: border-box;
-  border-radius: 1em;
+  background: #fff;
+}
+
+.progress-bar::-webkit-progress-bar {
+  height: 100%;
+  background: #fff;
 }
 
 .progress-bar::-webkit-progress-value, .progress-bar::-moz-progress-bar {
